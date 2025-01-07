@@ -1,0 +1,15 @@
+*{
+    font-family: 'Caesar';
+}
+@font-face {
+    font-family: 'Caesar';
+    src: url('./Font/CaesarDressing-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Macondo';
+    src: url('./Font/Macondo-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

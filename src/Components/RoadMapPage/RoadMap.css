@@ -1,0 +1,146 @@
+.roadmap {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.roadback {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding-bottom: -10%;
+}
+
+.headerr {
+    background: transparent;
+    z-index: 1;
+    position: relative;
+    top: -40%;
+
+}
+
+.gradient {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: -10px;
+    z-index: 1;
+    background: linear-gradient(180deg, #000000 55.2%, rgba(0, 0, 0, 0) 100%);
+}
+
+.headerr h1 {
+    font-size: 46px;
+    font-weight: bold;
+    color: #009a0d;
+    text-align: center;
+    margin-top: 20px;
+    background: transparent;
+    background-color: transparent;
+    color: black;
+    -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
+}
+
+.roadmap-items {
+    position: relative;
+    bottom: 40%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+    background: transparent;
+    z-index: 1;
+
+}
+
+.roadmap-item {
+    width: 20%;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: transparent;
+
+}
+
+.roadmap-item h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.13px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: transparent;
+
+
+}
+
+.roadmap-item img {
+    width: 50%;
+    height: auto;
+    border-radius: 4px;
+    position: relative;
+    left: 25%;
+    top: -9%;
+    background: transparent;
+
+}
+
+.roadmap-item p {
+    font-size: 16px;
+    color: #555;
+    background: transparent;
+
+}
+
+.roadmap-item ul {
+    position: relative;
+    bottom: 10%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    background: transparent;
+
+
+}
+
+.roadmap-item ul li {
+    font-family: 'Macondo';
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    background: transparent;
+
+}
+
+@media (max-width: 1024px) {
+    .roadmap-items {
+        flex-direction: column;
+        padding: 0 10%;
+    }
+
+    .roadmap-item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .roadmap-items {
+        flex-direction: column;
+        padding: 0 5%;
+    }
+
+    .roadmap-item {
+        width: 100%;
+    }
+}
