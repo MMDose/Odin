@@ -20,13 +20,14 @@
     -webkit-text-stroke: 3px rgba(53, 216, 36, 1);
     margin-bottom: 20px;
     width: 100%;
+    background: transparent;
+
 }
 
 .bot-card {
     height: 10%;
     border-radius: 8px;
-    width: 23.3%;
-    max-width: 300px;
+    width: 33.3%;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
@@ -86,7 +87,18 @@
 .bot-card button:hover {
     background-color: #28a317;
 }
+.botcontrol {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: transparent;
 
+}
 .bot-card button:disabled {
     border: 3px solid #28a317;
     background-color: transparent;
@@ -94,24 +106,170 @@
     cursor: not-allowed;
 }
 
-.bot-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-}
 
-/* Респонсивность */
-@media (max-width: 1024px) {
-    .bot-card {
-        width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 768px) {
-    .bot-card {
-        width: calc(100% - 20px);
-    }
-}
-
-.bots:last-child {
+.botcontrol:last-child {
     justify-content: flex-start;
+}
+@media (min-width: 2100px) and (max-width: 3900px) {
+    .botcontrol { 
+        width:100%;
+    }
+    .bot-card{
+        width: 23.3%;
+    }
+    .bot-card p{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .bot-card h3{
+        font-size: 30px;
+    }
+    .bot-card button {
+        width: 150px;
+        font-size: 25px;
+    }
+    .bot-card img {
+        width: 50%;
+    }
+}
+@media (min-width: 1000px) and (max-width: 2100px) { 
+
+    .botcontrol { 
+        width:100%;
+    }
+    .bot-card{
+        width: 23.3%;
+    }
+    .bot-card p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .bot-card h3{
+        font-size: 25px;
+    }
+    .bot-card button {
+        width: 150px;
+        font-size: 20px;
+    }
+    .bot-card img {
+        width: 50%;
+    }
+
+}
+@media (min-width: 700px) and (max-width: 1000px) { 
+
+    .botcontrol { 
+        width:100%;
+        left: -5%;
+    }
+    .bot-card{
+        width: 27.3%;
+    }
+    .bot-card p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .bot-card h3{
+        font-size: 20px;
+    }
+    .bot-card button {
+        width: 150px;
+        font-size: 20px;
+    }
+    .bot-card img {
+        width: 70%;
+    }
+
+}
+@media (min-width: 600px) and (max-width: 700px) { 
+
+    .botcontrol { 
+        width:100%;
+        left: -5%;
+    }
+    .bot-card{
+        width: 30.3%;
+    }
+    .bot-card p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .bot-card h3{
+        font-size: 20px;
+    }
+    .bot-card button {
+        padding: 0%;
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .bot-card img {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 600px) { 
+
+    .botcontrol { 
+        width:100%;
+        left: -5%;
+    }
+    .bot-card{
+        width: 30.3%;   
+    }
+    .bot-card p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .bot-card h3{
+        font-size: 20px;
+    }
+    .bot-card button {
+        padding: 0%;
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .bot-card img {
+        width: 100%;
+    }
+    .bot-card h5 {
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 500px) { 
+
+    .botcontrol { 
+        width:100%;
+        left: -8%;
+    }
+    .bot-card{
+        width: 31.3%;   
+    }
+    .bot-card p{
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .bot-card h3{
+        font-size: 15px;
+    }
+    .bot-card button {
+        padding: 0%;
+        width: 70px;
+        height: 30px;
+        font-size: 11px;
+        text-align: center;
+    }
+    .bot-card img {
+        width: 100%;
+    }
+    .bot-card h5 {
+        font-size: 30px;
+    }
+
 }

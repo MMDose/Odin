@@ -10,8 +10,11 @@ function AboutPage() {
 
   return (
     <div className='aboutpage'>
-      <img src={background} />
-      <img src={odinmaleficent} className='odinmaleficent'></img>
+      <div className='imgs'>
+        <img src={background} />
+        <img src={odinmaleficent} className='odinmaleficent' /> 
+        </div>
+      <div className='text'>  
       <p>ABOUT</p>
       <span>
         At $ODIN, we’re here to dominate.<br />
@@ -26,7 +29,8 @@ function AboutPage() {
         It’s about strength, loyalty, and a relentless pursuit of greatness. It’s the fire behind our <br /> community, the reason why we don’t just want to compete – we want to dominate
         <img src={about4} />
         We’re not just dominating in numbers, we’re tapping into something deeper. The team is <br />dedicated, and we expect nothing less from our community
-</span>
+      </span>
+      </div>
     </div>
   )
 }

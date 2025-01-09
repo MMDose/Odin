@@ -7,7 +7,7 @@ import coin5 from '../../Utilities/odin-coin5.svg'
 import coin6 from '../../Utilities/odin-coin6.svg'
 import coin7 from '../../Utilities/odin-coin7.svg'
 
-import "./botsPage.css"; 
+import "./botsPage.css";
 
 const botData = [
   { id: 1, title: "booster bot", comment: "This bot is helpful for those who want to create, manage and launch tokens quick.", button: "Try Now", image: coin1 },
@@ -23,6 +23,7 @@ function BotsPage() {
   return (
     <div className="bots">
       <h5 className="ourbots">OUR BOTS</h5>
+      <div className="botcontrol">
       {botData.map((bot) => (
         <div className="bot-card" key={bot.id}>
           <img src={bot.image} alt={bot.title} />
@@ -31,6 +32,7 @@ function BotsPage() {
           <button disabled={bot.button === "Coming Soon"}>{bot.button}</button>
         </div>
       ))}
+      </div>
     </div>
   );
 }

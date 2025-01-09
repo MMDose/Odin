@@ -7,7 +7,7 @@ function RoadMap() {
   return (
     <div className="roadmap">
       <img src={back} className="roadback"/>
-      <div className="gradient"></div>
+      <div className="gradient"/>
       <div className="headerr">
         <h1>RoadMap</h1>
       </div>

@@ -14,7 +14,7 @@ function TokenPage() {
 
       <div className="section-2">
         <div className="left-side">
-          <img src={tokenodin1} alt="Image 2" />
+          <img src={tokenodin1} className="ce-side" alt="Image 2" />
         </div>
         <div className="center-content">
           <h2>TOKENOMICS</h2>
@@ -29,7 +29,7 @@ function TokenPage() {
           <p>AIRDROPS: 5%</p>
         </div>
         <div className="right-side">
-          <img src={tokenodin2} alt="Image 3" />
+          <img src={tokenodin2} className="ce-side" alt="Image 3" />
         </div>
       </div>
 

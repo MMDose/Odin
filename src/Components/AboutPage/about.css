@@ -4,73 +4,165 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
     color: white;
     text-align: center;
     padding: 20px;
     min-height: 100vh;
     overflow: hidden;
+    background: transparent;
+
 }
 
-.aboutpage>img:first-child {
-    position: absolute;
-    top: 0;
-    left: 0;
+.imgs {
     width: 100%;
-    height: 25%;
-    object-fit: cover;
+    height: 30%;
+}
+.imgs :first-child {
+    position: absolute;
+    left: 0%;
+    width: 100%;
 }
 
 .odinmaleficent {
-    position: absolute;
-    top: 2%;
-    left: 49.5%;
+    position: relative;
+    bottom: 0%;
+    left: 15%;
     background-color: transparent;
     transform: translate(-50%, 0);
-    width: 30%;
+    width: 27%;
     z-index: 0;
+
 }
 
-.aboutpage p {
+.text {
+    position: relative;
+    top: 0%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.text p {
+
     font-size: 52px;
     font-weight: 100;
     letter-spacing: 2px;
-    margin-top: 25%;
     z-index: 1;
     background-color: transparent;
     color: black;
     -webkit-text-stroke: 3px rgba(53, 216, 36, 1);
+    background: transparent;
+
 }
 
-.aboutpage span {
+
+
+.text span {
     font-size: 18px;
-    line-height: 21px ;
+    line-height: 21px;
     max-width: 800px;
     margin-top: 20px;
     font-family: 'Macondo';
     text-align: center;
+    z-index: 1;
+    background: transparent;
+
 }
 
-.aboutpage span img {
+.text span img {
     display: block;
     margin: 20px auto;
     width: 15%;
+    background: transparent;
+
 }
 
-@media (max-width: 768px) {
-    .odinmaleficent {
-        width: 70%;
+@media (min-width: 2100px) and (max-width: 3900px) {
+  
+
+    .text span {
+        font-size: 38px;
+        line-height: 51px;
+
+
     }
 
-    .aboutpage p {
-        font-size: 36px;
+    .text p {
+        position: relative;
+        font-size: 88px;
+        line-height: 41px;
+        top: 0%;
+
     }
 
-    .aboutpage span {
-        font-size: 16px;
+    .text span img {
+        width: 25%;
     }
 
-    .aboutpage span img {
-        width: 80%;
+ 
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+
+    .text p {
+        position: relative;
+        font-size: 40px;
+        line-height: 41px;
+        top: 0%;
+
     }
+    .text span {
+        font-size: 18px;
+        line-height: 31px;
+    }
+    .odinmaleficent { 
+        position: relative;
+        padding-top: 1%;
+        width: 30%;
+    }
+
+}
+@media (min-width: 500px) and (max-width: 600px) {
+
+    .text p {
+        position: relative;
+        font-size: 40px;
+        line-height: 41px;
+        top: 0%;
+
+    }
+    .text span {
+        font-size: 18px;
+        line-height: 31px;
+    }
+    .odinmaleficent { 
+        position: relative;
+        padding-top: 1%;
+        width: 30%;
+    }
+
+}
+@media (min-width: 400px) and (max-width: 500px) {
+
+    .text p {
+        position: relative;
+        font-size: 30px;
+        line-height: 41px;
+        top: 0%;
+        -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
+
+
+    }
+    .text span {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .odinmaleficent { 
+        position: relative;
+        padding-top: -7%;
+        width: 50%;
+        left: 26%;
+    }
+
 }

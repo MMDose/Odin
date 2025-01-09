@@ -2,6 +2,7 @@ import React from 'react';
 import './HomePage.css';
 import HomePage1 from '../../Utilities/HomePage1.svg';
 import odinboss from '../../Utilities/odinboss1.png';
+import odinback from '../../Utilities/odinboss.png'
 import twitter from '../../Utilities/twitter 1.svg';
 import insta from '../../Utilities/insta 1.svg';
 import telegram from '../../Utilities/telegram 1.svg'
@@ -23,6 +24,7 @@ function HomePage() {
     };
     return (
         <div className="home-page">
+            <img className='odinBoss' src={odinback}/>
             <header className="header">
                 <button onClick={() => scrollToSection(aboutRef)}>About</button>
                 <button onClick={() => scrollToSection(tokenRef)}>Tokenomiss</button>
@@ -32,6 +34,7 @@ function HomePage() {
             </header>
 
             <main className="body">
+                <div className='bodycontrol'>
                 <p>$ODIN</p>
                 <span>
                     Unbeatable performance and cost, forged in the fires of Asgard.
@@ -51,6 +54,7 @@ function HomePage() {
                     <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
                         <img src={insta} alt="insta" width="24" height="24" />
                     </a>
+                </div>
                 </div>
                 <img className='odin' src={odinboss} alt="Odin Boss" />
             </main>
