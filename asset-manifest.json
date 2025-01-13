@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Odin/static/css/main.7ca4d646.css",
+    "main.js": "/Odin/static/js/main.648cd198.js",
+    "static/media/odin-maleficent 2.svg": "/Odin/static/media/odin-maleficent 2.718212f8e00fbdadba74ae048314eac0.svg",
+    "static/media/insta 1.svg": "/Odin/static/media/insta 1.1ffe45a5e80c610ed68967bedf3b4129.svg",
+    "static/media/odin-coin3.svg": "/Odin/static/media/odin-coin3.e09b0aa12bba86b7a68125d37a952ea7.svg",
+    "static/media/odin-coin6.svg": "/Odin/static/media/odin-coin6.1b769f8b5704f194ebf5e10863e4992f.svg",
+    "static/media/odin-coin5.svg": "/Odin/static/media/odin-coin5.4194ebcf54d7a96694c70b6061200f50.svg",
+    "static/media/odin-coin1.svg": "/Odin/static/media/odin-coin1.08ff32b33254aa9eae28184f5e2576dd.svg",
+    "static/media/odin-coin4.svg": "/Odin/static/media/odin-coin4.30b07865b867bad849f5195c672b4b14.svg",
+    "static/media/odin-coin2.svg": "/Odin/static/media/odin-coin2.54ccdec0126f12478ba4e6d065b9f32d.svg",
+    "static/media/roadmapback.jpg": "/Odin/static/media/roadmapback.f040e120bf035911d049.jpg",
+    "static/media/odin-coin7.svg": "/Odin/static/media/odin-coin7.76e17251ae6737a226d50ecb3650ad6b.svg",
+    "static/media/tokenodin2.svg": "/Odin/static/media/tokenodin2.baa653453fa1ad3780c0e05bd364fc63.svg",
+    "static/media/tokenodin1.svg": "/Odin/static/media/tokenodin1.bf8a67d4a185c3a8f1bf8e0dbfcea0ce.svg",
+    "static/media/telegram 1.svg": "/Odin/static/media/telegram 1.ab2031d8b28e39e9cada112fe0b90294.svg",
+    "static/media/odinboss.png": "/Odin/static/media/odinboss.0ff9782e73b13d30e1fc.png",
+    "static/media/twitter 1.svg": "/Odin/static/media/twitter 1.6829ef94bbb4084f992f678cd057a802.svg",
+    "static/media/tokenback.jpg": "/Odin/static/media/tokenback.9dbef41bdff63eb55523.jpg",
+    "static/media/about-back.jpg": "/Odin/static/media/about-back.5b4c514b34fe4fc51595.jpg",
+    "static/media/odinboss1.png": "/Odin/static/media/odinboss1.946ff9b6077321337007.png",
+    "static/media/botsback.png": "/Odin/static/media/botsback.b9127e11e6a96053ffef.png",
+    "static/media/about2.svg": "/Odin/static/media/about2.95fbf40fc704ab52ec58f37588070846.svg",
+    "static/media/HomePage1.svg": "/Odin/static/media/HomePage1.95d6b5a4ca49ba10e2cb919734eba189.svg",
+    "static/media/about3.svg": "/Odin/static/media/about3.04081c2b848ca660b8433221673c2852.svg",
+    "static/media/about1.svg": "/Odin/static/media/about1.51b4f2f9052344673f484c409423a94b.svg",
+    "static/media/about4.svg": "/Odin/static/media/about4.382cb7afa1540a0a971468cd26e200ba.svg",
+    "static/media/CaesarDressing-Regular.ttf": "/Odin/static/media/CaesarDressing-Regular.64f78ba033b0990543a9.ttf",
+    "static/media/Macondo-Regular.ttf": "/Odin/static/media/Macondo-Regular.0f91bbd01192421b9786.ttf",
+    "static/media/tokenback.svg": "/Odin/static/media/tokenback.73e581a2d35edc303c2f492a74f4e598.svg",
+    "static/media/roadmapbr.svg": "/Odin/static/media/roadmapbr.2da509b6e53b1b85581d55ad76379e29.svg",
+    "index.html": "/Odin/index.html",
+    "main.7ca4d646.css.map": "/Odin/static/css/main.7ca4d646.css.map",
+    "main.648cd198.js.map": "/Odin/static/js/main.648cd198.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ca4d646.css",
+    "static/js/main.648cd198.js"
+  ]
+}
