@@ -17,7 +17,7 @@ function AboutPage() {
       <div className='text'>  
       <p>ABOUT</p>
       <span>
-        At $ODIN, we’re here to dominate.<br />
+        At $ODIN, we’re here to dominate. <br/>
         Our vision is clear: deliver game-changing utility at the most efficient cost while building <br />
         a tight-knit, Viking-inspired community that stands stronger than ever
         <img src={about1} />
