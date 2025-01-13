@@ -157,12 +157,14 @@
     .roadback {
         height: 150%;
     }
+
     .headerr h1 {
         font-size: 50px;
     }
-    .headerr  {
+
+    .headerr {
         position: relative;
-        top: 10%;   
+        top: 10%;
         font-size: 50px;
     }
 }
@@ -198,12 +200,14 @@
     .roadback {
         height: 150%;
     }
+
     .headerr h1 {
         font-size: 50px;
     }
-    .headerr  {
+
+    .headerr {
         position: relative;
-        top: 10%;   
+        top: 10%;
         font-size: 50px;
     }
 }
@@ -239,15 +243,18 @@
     .roadback {
         height: 150%;
     }
+
     .headerr h1 {
         font-size: 40px;
     }
-    .headerr  {
+
+    .headerr {
         position: relative;
-        top: 10%;   
+        top: 10%;
         font-size: 50px;
     }
 }
+
 @media (min-width: 400px) and (max-width: 500px) {
 
     .roadmap-item ul li {
@@ -265,6 +272,7 @@
     .roadmap-item h3 {
         font-size: 20px;
     }
+
     .roadmap-item {
         position: relative;
         top: 1%;
@@ -278,14 +286,71 @@
     .roadback {
         height: 150%;
     }
+
     .headerr h1 {
         -webkit-text-stroke: 0.1px rgba(53, 216, 36, 1);
 
         font-size: 30px;
     }
-    .headerr  {
+
+    .headerr {
         position: relative;
-        top: 10%;   
+        top: 10%;
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+
+
+    .roadmap-item ul li {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .roadmap-item img {
+        position: relative;
+        width: 100%;
+        left: 10%;
+        top: -10%;
+    }
+
+    .roadmap-items {
+        display: flex;
+        justify-content: flex-start;
+        align-items: self-start;
+        flex-direction: row;
+        gap: 0rem;
+    }
+
+    .roadmap-item h3 {
+        position: relative;
+        font-size: 20px;
+        top: 3%;
+    }
+
+    .roadmap-item {
+        position: relative;
+        top: 1%;
+        width: 30%;
+    }
+
+    .gradient {
+        background: linear-gradient(180deg, #000000 10.2%, rgba(1, 1, 1, 0) 100%);
+    }
+
+    .roadback {
+        height: 150%;
+    }
+
+    .headerr h1 {
+        -webkit-text-stroke: 0.1px rgba(53, 216, 36, 1);
+        font-size: 30px;
+    }
+
+    .headerr {
+        position: relative;
+        top: 10%;
         font-size: 50px;
     }
 }

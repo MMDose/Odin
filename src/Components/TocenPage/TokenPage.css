@@ -307,3 +307,48 @@
 
     }
 }
+
+@media (min-width: 300px) and (max-width: 400px) { 
+    .center-content h2 {
+        font-size: 28px;
+        -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
+    }
+
+    .center-content p {
+        font-size: 12px;
+    }
+
+    .center-content :nth-child(2) {
+        color: white;
+        font-size: 14px;
+        margin-top: -20px;
+        background: transparent;
+
+
+    }
+
+    .center-content :nth-child(3) {
+        color: rgba(53, 216, 36, 1);
+        font-size: 11px;
+        margin-left: -40%;
+        background: transparent;
+
+
+    }
+
+    .left-side img {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+        width: 35%;
+    }
+
+
+    .right-side img {
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
+        width: 35%;
+
+    }
+}

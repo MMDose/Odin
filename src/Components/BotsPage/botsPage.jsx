@@ -13,10 +13,7 @@ const botData = [
   { id: 1, title: "booster bot", comment: "This bot is helpful for those who want to create, manage and launch tokens quick.", button: "Try Now", image: coin1 },
   { id: 2, title: "rank bot", comment: "This bot is used to rise your coin to the top, adds volume and increase the activity.", button: "Try Now", image: coin2 },
   { id: 3, title: "volume bot ", comment: "This bot is helpful for those who want to create, manage and launch tokens quick.", button: "Try Now", image: coin3 },
-  { id: 4, title: "bundler bot", comment: "This bot is helpful for those who want to create, manage and launch tokens quick.", button: "Try Now", image: coin4 },
-  { id: 5, title: "BerserK bot", comment: "This bot is used to rise your coin to the top, adds volume and increase the activity.", button: "Coming Soon", image: coin5 },
-  { id: 6, title: "raid bot", comment: "This bot is helpful for those who want to create, manage and launch tokens quick.", button: "Coming Soon", image: coin6 },
-  { id: 7, title: "smart profit bot", comment: "This bot is helpful for those who want to create, manage and launch tokens quick.", button: "Coming Soon", image: coin7 },
+  { id: 4, title: "bundler bot", comment: "This bot is helpful for those who want to create, manage and launch tokens quick.", button: "Coming Soon", image: coin4 },
 ];
 
 function BotsPage() {

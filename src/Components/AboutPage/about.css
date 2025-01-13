@@ -166,3 +166,27 @@
     }
 
 }
+
+@media (min-width: 300px) and (max-width: 400px) {
+
+    .text p {
+        position: relative;
+        font-size: 30px;
+        line-height: 41px;
+        top: 0%;
+        -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
+
+
+    }
+    .text span {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .odinmaleficent { 
+        position: relative;
+        padding-top: -7%;
+        width: 50%;
+        left: 26%;
+    }
+
+}

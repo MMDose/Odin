@@ -24,7 +24,7 @@ function HomePage() {
     };
     return (
         <div className="home-page">
-            <img className='odinBoss' src={odinback}/>
+            <img className='odinBoss' src={odinback} />
             <header className="header">
                 <button onClick={() => scrollToSection(aboutRef)}>About</button>
                 <button onClick={() => scrollToSection(tokenRef)}>Tokenomiss</button>
@@ -35,26 +35,40 @@ function HomePage() {
 
             <main className="body">
                 <div className='bodycontrol'>
-                <p>$ODIN</p>
-                <span>
-                    Unbeatable performance and cost, forged in the fires of Asgard.
-                </span>
-                <div className="actions">
-                    <button>BUY $ODIN</button>
-                    <button>START BOT</button>
-                    <button>COPY CA</button>
-                </div>
-                <div className="social-links">
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                        <img src={telegram} alt="telegram" width="24" height="24" />
-                    </a>
-                    <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
-                        <img src={twitter} alt="twitter" width="24" height="24" />
-                    </a>
-                    <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
-                        <img src={insta} alt="insta" width="24" height="24" />
-                    </a>
-                </div>
+                    <p className='title'>$ODIN</p>
+                    <span>
+                        Unbeatable performance and cost, forged in the fires of Asgard.
+                    </span>
+                    <div className="actions">
+                        <button onClick={() => window.open('https://odin-6.gitbook.io/odin-tools', '_blank')}>
+                            GITBOOK
+                        </button>
+                        <button onClick={() => window.open('https://jup.ag/swap/SOL-odinyvt9FgWWxw9BwZFjf7Agcch6Pk9mKubszw4izAG', '_blank')}>
+                            BUY $ODIN
+                        </button>
+                        <button onClick={() => window.open('https://start-bot.com', '_blank')}>
+                            START BOT
+                        </button>
+                        <button onClick={() => navigator.clipboard.writeText('Your Contract Address')}>
+                            COPY CA
+                        </button>
+                    </div>
+
+                    <div className="social-links">
+                        <a href="https://t.me/odintoolsportal" target="_blank" rel="noopener noreferrer">
+                            <img src={telegram} alt="telegram" width="24" height="24" />
+                        </a>
+                        <a href="https://x.com/odincoinsol" target="_blank" rel="noopener noreferrer">
+                            <img src={twitter} alt="twitter" width="24" height="24" />
+                        </a>
+                        <a href="https://dexscreener.com/solana/chorix55usqyarkezem5wjcsjwbrrbdxusshfuz1rvmk" target="_blank" rel="noopener noreferrer">
+                            <img src={insta} alt="insta" width="24" height="24" />
+                        </a>
+                    </div>
+                    <div className='textAdd'>
+                        <p>CA:</p>
+                        <p>odinyvt9FgWWxw9BwZFjf7Agcch6Pk9mKubszw4izAG</p>
+                    </div>
                 </div>
                 <img className='odin' src={odinboss} alt="Odin Boss" />
             </main>
@@ -71,8 +85,8 @@ function HomePage() {
             <section ref={roadmapRef} className="roadmap-section">
                 <RoadMap />
             </section>
-            <section className='faq-section'> 
-                <FaqPage/>
+            <section className='faq-section'>
+                <FaqPage />
             </section>
         </div>
     );
