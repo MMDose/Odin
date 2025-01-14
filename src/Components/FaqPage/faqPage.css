@@ -1,5 +1,6 @@
 .faq-page {
     width: 100%;
+    height: auto;
     background: black;
     color: #fff;
     font-family: Arial, sans-serif;
@@ -71,7 +72,7 @@
 .social-section {
     padding-left: 9%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 0px;
     background: transparent;
 
 }
@@ -100,7 +101,7 @@
     font-family: "Macondo";
 }
 
-@media (min-width: 1000px) and (max-width: 2100px) {
+/* @media (min-width: 1000px) and (max-width: 2100px) {
     .social-text {
         font-size: 20px;
     }
@@ -212,8 +213,9 @@
         width: 50%;
     }
 }
-
-@media (min-width: 400px) and (max-width: 500px) {
+*/
+@media (min-width: 481px) and (max-width: 768px),
+(min-height: 601px) and (max-height: 800px)  {
 
     .social-text {
         font-size: 13px;
@@ -243,12 +245,16 @@
     .faq-item {
         width: 50%;
     }
-}
+} 
 
-@media (min-width: 300px) and (max-width: 400px) {
-
+@media (max-width: 480px), (max-height: 600px)  {
+    .social-section {
+        position: relative;
+        margin-top: -20%;
+        margin-left: 35%;
+    }
     .social-text {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .social-icons img {
@@ -280,5 +286,10 @@
     }
     .faq-items{
         padding: 5%;
+        background-color: black;
+    }
+    .faq-items :last-child {
+        width: 70%;
+        text-align: start;
     }
 }

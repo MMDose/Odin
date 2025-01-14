@@ -32,7 +32,6 @@ function HomePage() {
                 <button onClick={() => scrollToSection(roadmapRef)}>Roadmap</button>
                 <button onClick={() => scrollToSection(botRef)}>Bots</button>
             </header>
-
             <main className="body">
                 <div className='bodycontrol'>
                     <p className='title'>$ODIN</p>

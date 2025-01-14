@@ -3,9 +3,7 @@ import coin1 from '../../Utilities/odin-coin1.svg'
 import coin2 from '../../Utilities/odin-coin2.svg'
 import coin3 from '../../Utilities/odin-coin3.svg'
 import coin4 from '../../Utilities/odin-coin4.svg'
-import coin5 from '../../Utilities/odin-coin5.svg'
-import coin6 from '../../Utilities/odin-coin6.svg'
-import coin7 from '../../Utilities/odin-coin7.svg'
+
 
 import "./botsPage.css";
 
