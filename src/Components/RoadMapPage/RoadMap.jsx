@@ -1,7 +1,7 @@
 import React from "react";
 import "./RoadMap.css";
-import roadmapbr from "../../Utilities/roadmapbr.svg";
-import back from '../../Utilities/roadmapback.jpg'
+import roadmapbr from "../../Utilities/roadmapbr.png";
+import back from '../../Utilities/roadmapback.png'
 
 function RoadMap() {
   return (

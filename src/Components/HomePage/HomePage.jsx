@@ -1,11 +1,11 @@
 import React from 'react';
 import './HomePage.css';
-import HomePage1 from '../../Utilities/HomePage1.svg';
+import HomePage1 from '../../Utilities/HomePage1.png';
 import odinboss from '../../Utilities/odinboss1.png';
 import odinback from '../../Utilities/odinboss.png'
-import twitter from '../../Utilities/twitter 1.svg';
-import insta from '../../Utilities/insta 1.svg';
-import telegram from '../../Utilities/telegram 1.svg'
+import twitter from '../../Utilities/twitter 1.png';
+import insta from '../../Utilities/insta 1.png';
+import telegram from '../../Utilities/telegram 1.png'
 import AboutPage from '../AboutPage/aboutPage'
 import BotsPage from '../BotsPage/botsPage'
 import TokenPage from '../TocenPage/TokenPage'

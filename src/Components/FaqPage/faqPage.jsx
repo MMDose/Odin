@@ -1,8 +1,8 @@
 import React from "react";
 import "./faqPage.css";
-import twitterIcon from "../../Utilities/twitter 1.svg";
-import instagramIcon from "../../Utilities/insta 1.svg";
-import telegramIcon from "../../Utilities/telegram 1.svg";
+import twitterIcon from "../../Utilities/twitter 1.png";
+import instagramIcon from "../../Utilities/insta 1.png";
+import telegramIcon from "../../Utilities/telegram 1.png";
 
 function FaqPage() {
   const faqs = [

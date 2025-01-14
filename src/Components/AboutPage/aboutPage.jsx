@@ -1,10 +1,10 @@
 import './about.css'
-import background from '../../Utilities/about-back.jpg'
-import odinmaleficent from '../../Utilities/odin-maleficent 2.svg'
-import about1 from '../../Utilities/about1.svg'
-import about2 from '../../Utilities/about2.svg'
-import about3 from '../../Utilities/about3.svg'
-import about4 from '../../Utilities/about4.svg'
+import background from '../../Utilities/about-back.png'
+import odinmaleficent from '../../Utilities/odin-maleficent 2.png'
+import about1 from '../../Utilities/about1.png'
+import about2 from '../../Utilities/about2.png'
+import about3 from '../../Utilities/about3.png'
+import about4 from '../../Utilities/about4.png'
 
 function AboutPage() {
 

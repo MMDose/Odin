@@ -102,49 +102,12 @@
 
 }
 
-/* 
-@media (min-width: 2100px) and (max-width: 3900px) {
+
+@media (min-width: 1067px) and (max-width: 1820px) and (min-height: 500px) and (max-height: 1000px) {
     .center-content h2 {
-        font-size: 82px;
-    }
-
-    .center-content p {
-        font-size: 52px;
-    }
-
-    .center-content :nth-child(2) {
-        color: white;
-        font-size: 38px;
-        margin-top: -20px;
-        background: transparent;
-
-
-    }
-
-    .center-content :nth-child(3) {
-        color: rgba(53, 216, 36, 1);
-        font-size: 38px;
-        background: transparent;
-
-
-    }
-
-    .left-side img {
-        position: absolute;
-        left: 0%;
-        bottom: 0%;
-    }
-
-
-    .right-side img {
-        position: absolute;
-        right: 0%;
-        bottom: 0%;
-    }
-}
-@media (min-width: 1000px) and (max-width: 2100px) { 
-    .center-content h2 {
-        font-size: 42px;
+        font-size: 32px;
+        -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
+        
     }
 
     .center-content p {
@@ -154,18 +117,14 @@
     .center-content :nth-child(2) {
         color: white;
         font-size: 18px;
-        margin-top: -20px;
+        margin-top: -30px;
         background: transparent;
-
-
     }
 
     .center-content :nth-child(3) {
         color: rgba(53, 216, 36, 1);
         font-size: 18px;
         background: transparent;
-
-
     }
 
     .left-side img {
@@ -182,91 +141,7 @@
     }
 }
 
-@media (min-width: 700px) and (max-width: 1000px) { 
-    .center-content h2 {
-        font-size: 42px;
-    }
-
-    .center-content p {
-        font-size: 22px;
-    }
-
-    .center-content :nth-child(2) {
-        color: white;
-        font-size: 18px;
-        margin-top: -20px;
-        background: transparent;
-
-
-    }
-
-    .center-content :nth-child(3) {
-        color: rgba(53, 216, 36, 1);
-        font-size: 18px;
-        background: transparent;
-
-
-    }
-
-    .left-side img {
-        position: absolute;
-        left: 0%;
-        bottom: 0%;
-    }
-
-
-    .right-side img {
-        position: absolute;
-        right: 0%;
-        bottom: 0%;
-    }
-}
-@media (min-width: 500px) and (max-width: 700px) { 
-    .center-content h2 {
-        font-size: 42px;
-    }
-
-    .center-content p {
-        font-size: 22px;
-    }
-
-    .center-content :nth-child(2) {
-        color: white;
-        font-size: 18px;
-        margin-top: -20px;
-        background: transparent;
-
-
-    }
-
-    .center-content :nth-child(3) {
-        color: rgba(53, 216, 36, 1);
-        font-size: 18px;
-        margin-left: -30%;
-        background: transparent;
-
-
-    }
-
-    .left-side img {
-        position: absolute;
-        left: 0%;
-        bottom: 0%;
-        width: 30%;
-    }
-
-
-    .right-side img {
-        position: absolute;
-        right: 0%;
-        bottom: 0%;
-        width: 30%;
-
-    }
-}
-*/
-@media (min-width: 481px) and (max-width: 768px),
-(min-height: 601px) and (max-height: 800px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .center-content h2 {
         font-size: 32px;
         -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
@@ -281,8 +156,6 @@
         font-size: 18px;
         margin-top: -20px;
         background: transparent;
-
-
     }
 
     .center-content :nth-child(3) {
@@ -290,8 +163,6 @@
         font-size: 13px;
         margin-left: -30%;
         background: transparent;
-
-
     }
 
     .left-side img {
@@ -327,8 +198,6 @@
         font-size: 14px;
         margin-top: -20px;
         background: transparent;
-
-
     }
 
     .center-content :nth-child(3) {
@@ -336,15 +205,12 @@
         font-size: 11px;
         margin-left: -25%;
         background: transparent;
-
-
     }
 
     .left-side img {
         float: left;
         bottom: 0%;
         width: 30%;
-
     }
 
 
@@ -352,6 +218,162 @@
         float: right;
         bottom: 0%;
         width: 30%;
+    }
+}
 
+
+@media (min-width: 769px) and (max-width: 1024px),
+(min-height: 860px) and (max-height: 1024px) {
+    .center-content h2 {
+        font-size: 42px;
+    }
+
+    .center-content p {
+        font-size: 26px;
+    }
+
+    .center-content :nth-child(2) {
+        color: white;
+        font-size: 24px;
+        margin-top: -20px;
+        background: transparent;
+    }
+
+    .center-content :nth-child(3) {
+        color: rgba(53, 216, 36, 1);
+        font-size: 20px;
+        margin-left: -10%;
+        background: transparent;
+    }
+
+    .left-side img {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+        width: 30%;
+    }
+
+
+    .right-side img {
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
+        width: 30%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) and (min-height: 768px) and (max-height: 900px) {
+    .center-content h2 {
+        font-size: 42px;
+    }
+
+    .center-content p {
+        font-size: 22px;
+    }
+
+    .center-content :nth-child(2) {
+        color: white;
+        font-size: 18px;
+        margin-top: -20px;
+        background: transparent;
+    }
+
+    .center-content :nth-child(3) {
+        color: rgba(53, 216, 36, 1);
+        font-size: 18px;
+        background: transparent;
+    }
+
+    .left-side img {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+    }
+
+
+    .right-side img {
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 900px) and (max-height: 1080px) {
+    .center-content h2 {
+        font-size: 52px;
+    }
+
+    .center-content p {
+        font-size: 32px;
+    }
+
+    .center-content :nth-child(2) {
+        color: white;
+        font-size: 28px;
+        margin-top: -20px;
+        background: transparent;
+
+
+    }
+
+    .center-content :nth-child(3) {
+        color: rgba(53, 216, 36, 1);
+        font-size: 28px;
+        background: transparent;
+
+
+    }
+
+    .left-side img {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+    }
+
+
+    .right-side img {
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
+    }
+}
+
+@media (min-width: 1921px) and (min-height: 1081px) {
+    .center-content h2 {
+        font-size: 52px;
+    }
+
+    .center-content p {
+        font-size: 35px;
+    }
+
+    .center-content :nth-child(2) {
+        color: white;
+        font-size: 35px;
+        margin-top: -20px;
+        background: transparent;
+
+
+    }
+
+    .center-content :nth-child(3) {
+        color: rgba(53, 216, 36, 1);
+        font-size: 28px;
+        background: transparent;
+
+
+    }
+
+    .left-side img {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+    }
+
+
+    .right-side img {
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
     }
 }

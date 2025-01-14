@@ -1,8 +1,8 @@
 import React from "react";
-import coin1 from '../../Utilities/odin-coin1.svg'
-import coin2 from '../../Utilities/odin-coin2.svg'
-import coin3 from '../../Utilities/odin-coin3.svg'
-import coin4 from '../../Utilities/odin-coin4.svg'
+import coin1 from '../../Utilities/odin-coin1.png'
+import coin2 from '../../Utilities/odin-coin2.png'
+import coin3 from '../../Utilities/odin-coin3.png'
+import coin4 from '../../Utilities/odin-coin4.png'
 
 
 import "./botsPage.css";

@@ -1,9 +1,9 @@
 import React from "react";
 import "./TokenPage.css";
-import tokenback from "../../Utilities/tokenback.jpg";
-import tokenodin1 from "../../Utilities/tokenodin1.svg";
-import tokenodin2 from "../../Utilities//tokenodin2.svg";
-import tokenbr from "../../Utilities/tokenback.svg";
+import tokenback from "../../Utilities/tokenback.png";
+import tokenodin1 from "../../Utilities/tokenodin1.png";
+import tokenodin2 from "../../Utilities//tokenodin2.png";
+import tokenbr from "../../Utilities/tokenbrr.png";
 
 function TokenPage() {
   return (

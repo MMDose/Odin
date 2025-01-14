@@ -64,11 +64,9 @@
 
 .odinBoss {
     position: absolute;
-    bottom: 0%;
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-position: bottom;
     background-size: 90%;
     z-index: 0;
 }
@@ -78,7 +76,7 @@
     bottom: -15%;
     left: 50%;
     transform: translateX(-50%);
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     background: transparent;
 }
@@ -124,6 +122,8 @@
     background: transparent;
     position: relative;
     top: -56%;
+    padding-bottom: 10px;
+    padding-top: 100px;
 }
 
 .actions :first-child {
@@ -132,9 +132,14 @@
     border: 3px solid rgba(53, 216, 36, 1);
     color: rgba(53, 216, 36, 1);
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1s;
     font-size: 18px;
     background-color: #000000;
+}
+
+.actions :first-child:hover {
+    background-color: rgba(53, 216, 36, 1);
+    color: #000000;
 }
 
 .actions :nth-child(2) {
@@ -143,10 +148,15 @@
     background: rgba(53, 216, 36, 1);
     border: none;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1s;
     font-size: 18px;
 }
 
+.actions :nth-child(2):hover {
+    background: #000000;
+    color: rgba(53, 216, 36, 1);
+    border: 3px solid rgba(53, 216, 36, 1);
+}
 
 .actions :nth-child(3) {
     width: 140px;
@@ -155,11 +165,15 @@
     color: white;
     border: none;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1s;
     font-size: 18px;
 }
 
-
+.actions :nth-child(3):hover {
+    background: white;
+    color: rgba(41, 170, 225, 1);
+    border: 3px solid rgba(41, 170, 225, 1);
+}
 
 .actions :last-child {
     width: 140px;
@@ -167,9 +181,14 @@
     border: 3px solid rgba(53, 216, 36, 1);
     color: rgba(53, 216, 36, 1);
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1s;
     font-size: 18px;
     background-color: black;
+}
+
+.actions :last-child:hover {
+    background-color: rgba(53, 216, 36, 1);
+    color: black;
 }
 
 
@@ -219,7 +238,6 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     background-color: transparent;
-
 }
 
 .textAdd :last-child {
@@ -236,203 +254,34 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     background-color: transparent;
-
-
 }
 
-/* @media (min-width: 2100px) and (max-width: 3900px) {
+@media (min-width: 1067px) and (max-width: 1820px) and (min-height: 500px) and (max-height: 1000px) {
     .header {
         gap: 5rem;
-    }
-
-    .bodycontrol {
-        top: -17%;
-    }
-    .textAdd {
-        top: -25%;
-    }
-    .social-links {
-        top: -25%;
-
-    }
-
-    .body .odin {
-
-        bottom: -10%;
-    }
-
-    .social-links img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .header button {
-        font-size: 50px;
-    }
-
-    .body {
-        width: 100%;
-    }
-
-    .title {
-        top: -30%;
-        font-size: 80px;
-    }
-
-    .body span {
-        top: -30%;
-        width: 26%;
-        font-size: 48px;
-        line-height: 53.04px;
-        background-color: transparent;
-
-    }
-
-    .actions {
-        padding-top: 50px;
-        top: -30%;
-    }
-
-    .actions :nth-child(1):nth-child(2):nth-child(3) {
-        width: 500px;
-        height: 200px;
-        font-size: 100px;
-    }
-}
-
-@media (min-width: 1000px) and (max-width: 2100px) {
-    .header {
-        gap: 3rem;
-    }
-
-    .social-links {
-        top: -58%;
-    }
-    .textAdd {
-        top: -58%;
-    }
-    .odin {
-        width: 40%;
-        bottom: -20%;
-
-    }
-
-    .social-links img {
-        width: 50px;
-        height: 50px;
-        background: transparent;
-
-    }
-
-    .odinBoss {
-        width: 100%;
-        height: 100%;
-        top: 10%;
     }
 
     .header button {
         font-size: 25px;
     }
 
-    .body {
-        background-size: 100%;
-        height: 100vh;
-    }
-
-    .title {
-        top: -50%;
-        font-size: 50px;
-    }
-
-    .body span {
-        top: -55%;
-        width: 20%;
-        font-size: 22px;
-        line-height: 33.04px;
-        background-color: transparent;
-
-    }
-
-    .actions {
-        padding-top: 50px;
-        top: -60%;
-    }
-
-    .actions :nth-child(1):nth-child(2):nth-child(3) {
-        width: 500px;
-        height: 200px;
-        font-size: 100px;
+    .odinBoss {
+        position: absolute;
+        max-width: 80%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 90%;
+        z-index: 0;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .header img {
         width: 5%;
     }
-}
 
-@media (min-width: 1400px) and (max-width: 1600px) {
-    .title {
-        top: -45%;
-        font-size: 50px;
-    }
-
-    .body span {
-        top: -50%;
-        width: 25%;
-        font-size: 22px;
-        line-height: 33.04px;
-        background-color: transparent;
-
-    }
-
-    .actions {
-        padding-top: 50px;
-        top: -58%;
-    }
-
-    .social-links {
-        top: -55%;
-    }
-    .textAdd {
-        top: -50%;
-    }
-}
-
-@media (min-width: 1000px) and (max-width: 1400px) {
-    .title {
-        top: -40%;
-        font-size: 50px;
-    }
-
-    .body span {
-        top: -45%;
-        width: 32%;
-        font-size: 22px;
-        line-height: 33.04px;
-        background-color: transparent;
-
-    }
-
-    .social-links {
-        top: -47%;
-    }
-    .textAdd {
-        top: -47%;
-    }
-    .actions {
-        padding-top: 50px;
-        top: -50%;
-    }
-
-    .odin {
-        width: 50%;
-        bottom: -16%;
-
-    }
-}
-
-@media (min-width: 800px) and (max-width: 1000px) {
     .bodycontrol {
-        top: 10%;
+        top: -1%;
     }
 
     .title {
@@ -442,270 +291,74 @@
 
     .body span {
         top: -45%;
-        width: 32%;
+        width: 37%;
         font-size: 22px;
-        line-height: 33.04px;
+        line-height: 43.04px;
         background-color: transparent;
-
     }
 
     .social-links {
-        top: -47%;
-    }
-    .textAdd {
-        top: -47%;
-    }
-    .actions {
-        padding-top: 50px;
         top: -50%;
     }
 
-    .odin {
-        width: 50%;
-        bottom: -10%;
-
-    }
-}
-
-@media (min-width: 700px) and (max-width: 800px) {
-    .header {
-        gap: 2rem;
-    }
-
-    .header img {
-        width: 10%;
-    }
-
-    .bodycontrol {
-        top: 15%;
-    }
-
-    .title {
-        top: -40%;
-        font-size: 50px;
-    }
-
-    .body span {
-        top: -45%;
-        width: 32%;
-        font-size: 22px;
-        line-height: 33.04px;
-        background-color: transparent;
-
-    }
-
-    .social-links {
-        top: -47%;
-    }
     .textAdd {
-        top: -47%;
+        top: -48%;
     }
+
     .actions {
         padding-top: 50px;
         top: -50%;
-    }
-
-    .odin {
-        width: 62%;
-        bottom: -10%;
-
-    }
-}
-
-@media (min-width: 600px) and (max-width: 700px) {
-    .header {
-        gap: 2rem;
-    }
-
-    .header img {
-        width: 7%;
-    }
-
-    .bodycontrol {
-        top: 25%;
-    }
-
-    .title {
-        top: -40%;
-        font-size: 40px;
-    }
-
-    .body span {
-        top: -45%;
-        width: 50%;
-        font-size: 18px;
-        line-height: 33.04px;
-        background-color: transparent;
-
-    }
-
-    .social-links {
-        top: -47%;
-    }
-    .textAdd {
-        top: -47%;
-    }
-    .actions {
-        padding-top: 50px;
-        top: -50%;
-        width: 50%;
-    }
-
-    .odin {
-        width: 65%;
-        bottom: -12%;
-
-    }
-}
-
-@media (min-width: 500px) and (max-width: 600px) {
-    .header {
-        gap: 2rem;
-    }
-
-    .header img {
-        width: 10%;
-    }
-
-    .bodycontrol {
-        left: 0%;
-        top: 20%;
-    }
-
-    .title {
-        top: -40%;
-        font-size: 40px;
-    }
-
-    .body span {
-        top: -45%;
-        width: 50%;
-        font-size: 18px;
-        line-height: 33.04px;
-        background-color: transparent;
-
-    }
-
-    .social-links {
-        top: -47%;
-    }
-    .textAdd {
-        top: -47%;
-    }
-    .actions {
-        padding-top: 50px;
-        top: -50%;
-        width: 55%;
     }
 
     .actions :nth-child(1) {
         width: 100px;
-        height: 30px;
-        font-size: 16px;
+        height: 50px;
+        font-size: 19px;
     }
 
     .actions :nth-child(2) {
         width: 100px;
-        height: 30px;
-        font-size: 16px;
+        height: 50px;
+        font-size: 19px;
     }
 
     .actions :nth-child(3) {
         width: 100px;
-        height: 30px;
-        font-size: 16px;
+        height: 50px;
+        font-size: 19px;
+    }
+
+    .actions :nth-child(4) {
+        width: 100px;
+        height: 50px;
+        font-size: 19px;
     }
 
     .odin {
-        width: 72%;
-        bottom: -7%;
-
-    }
-}
-*/
-@media (min-width: 481px) and (max-width: 768px),
-(min-height: 601px) and (max-height: 800px) {
-    .header {
-        gap: 1rem;
-    }
-
-    .header button {
-        font-size: 15px;
-
-    }
-
-    .header img {
-        width: 15%;
-    }
-
-    .bodycontrol {
-        left: 0%;
-        top: 10%;
-    }
-
-    .title {
-        top: -40%;
-        font-size: 30px;
-        -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
-    }
-
-    .body span {
-        top: -45%;
-        width: 55%;
-        font-size: 14px;
-        line-height: 33.04px;
-        background-color: transparent;
-
-    }
-
-    .social-links {
-        top: -47%;
-    }
-
-    .textAdd {
-        top: -47%;
+        width: 35%;
+        bottom: -20%;
     }
 
     .social-links img {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
+        background: transparent;
     }
 
-    .actions {
-        padding-top: 50px;
-        top: -50%;
-        width: 55%;
+    .textAdd :first-child {
+        font-size: 20px;
     }
 
-    .actions :nth-child(1) {
-        width: 80px;
-        height: 30px;
-        font-size: 14px;
-    }
-
-    .actions :nth-child(2) {
-        width: 80px;
-        height: 30px;
-        font-size: 14px;
-    }
-
-    .actions :nth-child(3) {
-        width: 80px;
-        height: 30px;
-        font-size: 14px;
-    }
-
-    .odin {
-        width: 100%;
-        bottom: -5%;
-
+    .textAdd :last-child {
+        font-size: 20px;
     }
 }
 
-@media (max-width: 480px),
-(max-height: 600px) {
+@media (max-width: 481px),
+(max-height: 500px) {
     .header {
-        gap: 1rem;
+        gap: 0rem;
+        max-width: 100%;
     }
 
     .header button {
@@ -714,7 +367,7 @@
     }
 
     .header img {
-        width: 13%;
+        width: 10%;
     }
 
     .bodycontrol {
@@ -734,14 +387,12 @@
         font-size: 100%;
         line-height: 23.04px;
         background-color: transparent;
-
     }
 
     .social-links {
-        top: -57%;
+        top: -60%;
         background-color: transparent;
         color: transparent;
-
     }
 
     .textAdd {
@@ -768,6 +419,8 @@
         width: 80px;
         height: 30px;
         font-size: 11px;
+        border: 2px solid rgba(53, 216, 36, 1);
+        padding: 5px;
     }
 
     .actions :nth-child(2) {
@@ -786,6 +439,7 @@
         width: 80px;
         height: 30px;
         font-size: 11px;
+        border: 2px solid rgba(53, 216, 36, 1);
     }
 
     .odin {
@@ -801,6 +455,407 @@
     .odinBoss {
         max-width: 100%;
         max-height: 100%;
+    }
+}
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .header {
+        gap: 1rem;
+    }
+
+    .header button {
+        font-size: 15px;
+
+    }
+
+    .header img {
+        width: 7%;
+    }
+
+    .bodycontrol {
+        left: 0%;
+        top: 0%;
+    }
+
+    .title {
+        top: -40%;
+        font-size: 30px;
+        -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
+    }
+
+    .body span {
+        top: -45%;
+        width: 55%;
+        font-size: 14px;
+        line-height: 33.04px;
+        background-color: transparent;
+    }
+
+    .social-links {
+        top: -50%;
+    }
+
+    .textAdd {
+        top: -47%;
+    }
+
+    .social-links img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .actions {
+        padding-top: 50px;
+        top: -50%;
+        width: 55%;
+    }
+
+    .actions :nth-child(1) {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .actions :nth-child(2) {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .actions :nth-child(3) {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .actions :nth-child(4) {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .odin {
+        width: 100%;
+        bottom: -5%;
+
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px),
+(min-height: 860px) and (max-height: 1024px) {
+    .header {
+        gap: 3rem;
+    }
+
+    .header button {
+        font-size: 20px;
+    }
+
+    .header img {
+        width: 13%;
+    }
+
+    .bodycontrol {
+        left: 0%;
+        top: 0%;
+    }
+
+    .title {
+        top: -50%;
+        font-size: 40px;
+    }
+
+    .body span {
+        top: -45%;
+        width: 40%;
+        font-size: 22px;
+        line-height: 33.04px;
+        background-color: transparent;
+    }
+
+    .social-links {
+        top: -47%;
+    }
+
+    .textAdd {
+        top: -40%;
+    }
+
+    .actions {
+        padding-top: 50px;
+        top: -50%;
+        width: 55%;
+    }
+
+    .actions :nth-child(1) {
+        width: 100px;
+        height: 50px;
+        font-size: 19px;
+    }
+
+    .actions :nth-child(2) {
+        width: 100px;
+        height: 50px;
+        font-size: 19px;
+    }
+
+    .actions :nth-child(3) {
+        width: 100px;
+        height: 50px;
+        font-size: 19px;
+    }
+
+    .actions :nth-child(4) {
+        width: 100px;
+        height: 50px;
+        font-size: 19px;
+    }
+
+    .odin {
+        width: 72%;
+        bottom: -7%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) and (min-height: 768px) and (max-height: 900px) {
+    .header {
+        gap: 5rem;
+    }
+
+    .header button {
+        font-size: 30px;
+
+    }
+
+    .header img {
+        width: 7%;
+    }
+
+    .bodycontrol {
+        top: -5%;
+    }
+
+    .title {
+        top: -45%;
+        font-size: 50px;
+    }
+
+    .body span {
+        top: -45%;
+        width: 37%;
+        font-size: 28px;
+        line-height: 33.04px;
+        background-color: transparent;
+    }
+
+    .social-links {
+        top: -47%;
+    }
+
+    .textAdd {
+        top: -47%;
+    }
+
+    .actions {
+        padding-top: 50px;
+        top: -50%;
+        width: 50%;
+    }
+
+    .odin {
+        width: 50%;
+        bottom: -16%;
+    }
+
+    .textAdd {
+        top: -40%;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 900px) and (max-height: 1080px) {
+    .header {
+        gap: 6rem;
+    }
+
+    .header button {
+        font-size: 30px;
+
+    }
+
+    .header img {
+        width: 10%;
+    }
+
+    .bodycontrol {
+        top: -3%;
+    }
+
+    .title {
+        top: -40%;
+        font-size: 60px;
+    }
+
+    .body span {
+        top: -45%;
+        width: 37%;
+        font-size: 32px;
+        line-height: 43.04px;
+        background-color: transparent;
+    }
+
+    .social-links {
+        top: -44%;
+    }
+
+    .textAdd {
+        top: -40%;
+    }
+
+    .actions {
+        padding-top: 50px;
+        top: -50%;
+    }
+
+    .actions :nth-child(1) {
+        width: 150px;
+        height: 50px;
+        font-size: 29px;
+    }
+
+    .actions :nth-child(2) {
+        width: 150px;
+        height: 50px;
+        font-size: 29px;
+    }
+
+    .actions :nth-child(3) {
+        width: 150px;
+        height: 50px;
+        font-size: 29px;
+    }
+
+    .actions :nth-child(4) {
+        width: 150px;
+        height: 50px;
+        font-size: 29px;
+    }
+
+    .odin {
+        width: 45%;
+        bottom: -20%;
+
+    }
+
+    .social-links img {
+        width: 80px;
+        height: 80px;
+        background: transparent;
+    }
+
+    .textAdd :first-child {
+        font-size: 30px;
+    }
+
+    .textAdd :last-child {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1921px) and (min-height: 1081px) {
+    .header {
+        gap: 10rem;
+    }
+
+    .header button {
+        font-size: 35px;
+
+    }
+
+    .header img {
+        width: 7%;
+    }
+
+    .bodycontrol {
+        top: -15%;
+    }
+
+    .title {
+        top: -40%;
+        font-size: 60px;
+    }
+
+    .body span {
+        top: -45%;
+        width: 27%;
+        font-size: 37px;
+        line-height: 43.04px;
+        background-color: transparent;
+    }
+
+    .social-links {
+        top: -44%;
+    }
+
+    .textAdd {
+        top: -40%;
+    }
+
+    .actions {
+        padding-top: 50px;
+        top: -45%;
+    }
+
+    .actions :nth-child(1) {
+        width: 170px;
+        height: 70px;
+        font-size: 31px;
+    }
+
+    .actions :nth-child(2) {
+        width: 170px;
+        height: 70px;
+        font-size: 31px;
+    }
+
+    .actions :nth-child(3) {
+        width: 170px;
+        height: 70px;
+        font-size: 31px;
+    }
+
+    .actions :nth-child(4) {
+        width: 170px;
+        height: 70px;
+        font-size: 31px;
+    }
+
+    .odin {
+        width: 40%;
+        bottom: -20%;
+    }
+
+    .odinBoss {
+        position: absolute;
+        max-width: 80%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 90%;
+        z-index: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .social-links img {
+        width: 80px;
+        height: 80px;
+        background: transparent;
+    }
+
+    .textAdd :first-child {
+        font-size: 30px;
+    }
+
+    .textAdd :last-child {
+        font-size: 30px;
     }
 }
