@@ -24,7 +24,9 @@ function HomePage() {
     };
     return (
         <div className="home-page">
-            <img className='odinBoss' src={odinback} />
+            <div className='odindiv'>
+                <img className='odinBoss' src={odinback} />
+            </div>
             <header className="header">
                 <button onClick={() => scrollToSection(aboutRef)}>About</button>
                 <button onClick={() => scrollToSection(tokenRef)}>Tokenomiss</button>
