@@ -322,7 +322,6 @@
     }
 
     .actions {
-        padding-top: 50px;
         top: -50%;
     }
 
@@ -385,17 +384,18 @@
 
     .bodycontrol {
         left: 0%;
-        top: 25%;
+        top:  -5%;
+        gap: 1rem;
     }
 
     .title {
-        top: -50%;
+        top: -7%;
         font-size: 25px;
         -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
     }
 
     .body span {
-        top: -55%;
+        top: -10%;
         width: 55%;
         font-size: 100%;
         line-height: 23.04px;
@@ -403,13 +403,13 @@
     }
 
     .social-links {
-        top: -60%;
+        top: -10%;
         background-color: transparent;
         color: transparent;
     }
 
     .textAdd {
-        top: -52%;
+        top: -10%;
     }
 
     .textAdd :last-child {
@@ -423,8 +423,7 @@
     }
 
     .actions {
-        padding-top: 50px;
-        top: -60%;
+        top: -10%;
         width: 60%;
     }
 
@@ -433,19 +432,29 @@
         height: 30px;
         font-size: 11px;
         border: 2px solid rgba(53, 216, 36, 1);
-        padding: 5px;
+        padding: 0px;
+        text-align: center;
     }
 
     .actions :nth-child(2) {
         width: 80px;
         height: 30px;
         font-size: 11px;
+        padding: 1px;
+        margin: 0px;
+        text-align: center;
+
+
     }
 
     .actions :nth-child(3) {
         width: 80px;
         height: 30px;
         font-size: 11px;
+        padding: 0px;
+        text-align: center;
+
+
     }
 
     .actions :nth-child(4) {
@@ -453,12 +462,16 @@
         height: 30px;
         font-size: 11px;
         border: 2px solid rgba(53, 216, 36, 1);
+        padding: 0px;
+        text-align: center;
+
+
     }
 
 
 
     .body {
-        height: 60vh;
+        height: 70vh;
     }
 
     .odinBoss {
@@ -484,7 +497,7 @@
 
     .bodycontrol {
         left: 0%;
-        top: 0%;
+        top: 10%;
     }
 
     .title {
@@ -515,7 +528,6 @@
     }
 
     .actions {
-        padding-top: 50px;
         top: -50%;
         width: 55%;
     }
@@ -679,7 +691,6 @@
     }
 
     .actions {
-        padding-top: 50px;
         top: -50%;
         width: 50%;
     }
@@ -730,7 +741,6 @@
     }
 
     .actions {
-        padding-top: 50px;
         top: -50%;
     }
 
@@ -815,7 +825,6 @@
     }
 
     .actions {
-        padding-top: 50px;
         top: -45%;
     }
 
