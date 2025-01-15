@@ -254,6 +254,7 @@
     }
 
     .gradient {
+        z-index: 0;
         background: linear-gradient(180deg, #000000 10.2%, rgba(1, 1, 1, 0) 100%);
     }
 
@@ -262,8 +263,8 @@
     }
 
     .headerr h1 {
-        -webkit-text-stroke: 0.1px rgba(53, 216, 36, 1);
-        font-size: 30px;
+        -webkit-text-stroke: 0.5px rgba(53, 216, 36, 1);
+        font-size: 35px;
         z-index: 5;
     }
 
@@ -296,7 +297,7 @@
 
     .roadmap-item {
         position: relative;
-        top: 0%;
+        top: 1%;
         width: 25%;
     }
 
@@ -315,7 +316,7 @@
 
     .headerr {
         position: relative;
-        top: 0%;
+        top: 5%;
         font-size: 50px;
     }
 }

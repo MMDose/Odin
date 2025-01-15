@@ -107,7 +107,7 @@
     .center-content h2 {
         font-size: 32px;
         -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
-        
+
     }
 
     .center-content p {
@@ -241,8 +241,8 @@
 
     .center-content :nth-child(3) {
         color: rgba(53, 216, 36, 1);
-        font-size: 20px;
-        margin-left: -10%;
+        font-size: 16px;
+        margin-left: -40%;
         background: transparent;
     }
 

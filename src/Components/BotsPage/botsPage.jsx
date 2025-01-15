@@ -24,7 +24,7 @@ function BotsPage() {
           <img src={bot.image} alt={bot.title} />
           <h3>{bot.title}</h3>
           <p>{bot.comment}</p>
-          <button disabled={bot.button === "Coming Soon"}>{bot.button}</button>
+          <button disabled={bot.button === "Coming Soon"} onClick={() => window.open('https://t.me/odin_tools_bot', '_blank')}>{bot.button}</button>
         </div>
       ))}
       </div>

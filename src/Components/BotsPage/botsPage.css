@@ -238,19 +238,25 @@
     .botcontrol {
         width: 100%;
         left: -10%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
     }
-
+    .botcontrol :nth-child(2){
+        line-height: 30px;
+    }
+   
     .bot-card {
-        width: 30.3%;
+        width: 30.5%;
     }
 
     .bot-card p {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 25px;
     }
 
     .bot-card h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .bot-card button {
