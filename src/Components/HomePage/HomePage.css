@@ -270,7 +270,7 @@
     background-color: transparent;
 }
 
-@media (min-width: 1067px) and (max-width: 1820px) and (min-height: 500px) and (max-height: 1000px) {
+@media (min-width: 1067px) and (max-width: 1820px)  {
     .header {
         gap: 5rem;
     }
@@ -354,10 +354,9 @@
     }
 }
 
-@media (max-width: 481px),
-(max-height: 500px) {
+@media (max-width: 391px) {
     .header {
-        gap: 0rem;
+        gap: 1rem;
         max-width: 100%;
     }
 
@@ -366,13 +365,13 @@
     }
 
     .header img {
-        width: 10%;
+        width: 14%;
     }
 
     .bodycontrol {
         left: 0%;
-        top:  -5%;
-        gap: 1rem;
+        top: -5%;
+        gap: 2rem;
     }
 
     .title {
@@ -399,7 +398,7 @@
         top: -10%;
     }
 
-   
+
     .textAdd :first-child {
         font-size: 12px;
     }
@@ -407,6 +406,7 @@
     .textAdd :last-child {
         font-size: 10px;
     }
+
     .social-links img {
         width: 30px;
         height: 30px;
@@ -459,13 +459,255 @@
 
     }
 
-    .odin{
+    .odin {
         width: 45%;
         bottom: -7%;
     }
 
     .body {
-        height: 80vh;
+        height: 70vh;
+    }
+
+    .odinBoss {
+        bottom: 350px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (min-width: 391px) and (max-width:480px) {
+    .header {
+        gap: 1rem;
+        max-width: 100%;
+    }
+
+    .header button {
+        font-size: 80%;
+    }
+
+    .header img {
+        width: 14%;
+    }
+
+    .bodycontrol {
+        left: 0%;
+        top: -5%;
+        gap: 2rem;
+    }
+
+    .title {
+        top: 0%;
+        font-size: 25px;
+        -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
+    }
+
+    .body span {
+        top: -10%;
+        width: 55%;
+        font-size: 100%;
+        line-height: 23.04px;
+        background-color: transparent;
+    }
+
+    .social-links {
+        top: -10%;
+        background-color: transparent;
+        color: transparent;
+    }
+
+    .textAdd {
+        top: -10%;
+    }
+
+
+    .textAdd :first-child {
+        font-size: 12px;
+    }
+
+    .textAdd :last-child {
+        font-size: 10px;
+    }
+
+    .social-links img {
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+    }
+
+    .actions {
+        top: -10%;
+        width: 70%;
+        gap: 0.1rem;
+    }
+
+    .actions :nth-child(1) {
+        width: 120px;
+        height: 30px;
+        font-size: 11px;
+        border: 2px solid rgba(53, 216, 36, 1);
+        padding-bottom: 5px;
+        text-align: center;
+    }
+
+    .actions :nth-child(2) {
+        width: 120px;
+        height: 30px;
+        font-size: 11px;
+        padding: 1px;
+        text-align: center;
+
+
+    }
+
+    .actions :nth-child(3) {
+        width: 120px;
+        height: 30px;
+        font-size: 11px;
+        text-align: center;
+        border: 2px solid transparent;
+
+
+    }
+
+    .actions :nth-child(4) {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+        border: 2px solid rgba(53, 216, 36, 1);
+        padding-bottom: 5px;
+        text-align: center;
+
+
+    }
+
+    .odin {
+        width: 45%;
+        bottom: -7%;
+    }
+
+    .body {
+        height: 70vh;
+    }
+
+    .odinBoss {
+        bottom: 350px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 500px) {
+    .header {
+        gap: 1rem;
+        max-width: 100%;
+    }
+
+    .header button {
+        font-size: 80%;
+    }
+
+    .header img {
+        width: 14%;
+    }
+
+    .bodycontrol {
+        left: 0%;
+        top: -5%;
+        gap: 2rem;
+    }
+
+    .title {
+        top: 0%;
+        font-size: 25px;
+        -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
+    }
+
+    .body span {
+        top: -10%;
+        width: 55%;
+        font-size: 100%;
+        line-height: 23.04px;
+        background-color: transparent;
+    }
+
+    .social-links {
+        top: -10%;
+        background-color: transparent;
+        color: transparent;
+    }
+
+    .textAdd {
+        top: -10%;
+    }
+
+
+    .textAdd :first-child {
+        font-size: 12px;
+    }
+
+    .textAdd :last-child {
+        font-size: 10px;
+    }
+
+    .social-links img {
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+    }
+
+    .actions {
+        top: -10%;
+        width: 70%;
+        gap: 0.1rem;
+    }
+
+    .actions :nth-child(1) {
+        width: 120px;
+        height: 30px;
+        font-size: 11px;
+        border: 2px solid rgba(53, 216, 36, 1);
+        padding-bottom: 5px;
+        text-align: center;
+    }
+
+    .actions :nth-child(2) {
+        width: 120px;
+        height: 30px;
+        font-size: 11px;
+        padding: 1px;
+        text-align: center;
+
+
+    }
+
+    .actions :nth-child(3) {
+        width: 120px;
+        height: 30px;
+        font-size: 11px;
+        text-align: center;
+        border: 2px solid transparent;
+
+
+    }
+
+    .actions :nth-child(4) {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+        border: 2px solid rgba(53, 216, 36, 1);
+        padding-bottom: 5px;
+        text-align: center;
+
+
+    }
+
+    .odin {
+        width: 45%;
+        bottom: -7%;
+    }
+
+    .body {
+        height: 70vh;
     }
 
     .odinBoss {
@@ -549,12 +791,11 @@
         height: 30px;
         font-size: 12px;
     }
- 
+
 
 }
 
-@media (min-width: 769px) and (max-width: 1024px),
-(min-height: 900px) and (max-height: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px){
     .header {
         gap: 3rem;
     }
@@ -644,12 +885,13 @@
         width: 30%;
         bottom: -10%;
     }
+
     .odindiv {
         top: -5%;
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) and (min-height: 768px) and (max-height: 900px) {
+@media (min-width: 1024px) and (max-width: 1366px)  {
     .header {
         gap: 5rem;
     }
@@ -696,12 +938,13 @@
     .odin {
         bottom: -10%;
     }
+
     .textAdd {
         top: -40%;
     }
 }
 
-@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 900px) and (max-height: 1080px) {
+@media (min-width: 1367px) and (max-width: 1920px)  {
     .header {
         gap: 6rem;
     }
@@ -768,10 +1011,11 @@
         font-size: 29px;
     }
 
-  
+
     .odin {
         bottom: -10%;
     }
+
     .social-links img {
         width: 80px;
         height: 80px;
@@ -858,16 +1102,7 @@
         bottom: -10%;
     }
 
-    /* .odinBoss {
-        position: absolute;
-        max-width: 80%;
-        height: 100%;
-        background-repeat: no-repeat;
-        background-size: 90%;
-        z-index: 0;
-        padding-left: 10%;
-        padding-right: 10%;
-    } */
+
 
     .social-links img {
         width: 80px;
@@ -884,7 +1119,7 @@
     }
 }
 
-@media (min-width: 1424px) and (max-width: 1666px) and (min-height: 500px) and (max-height: 900px) {
+@media (min-width: 1424px) and (max-width: 1666px) {
     .header {
         gap: 3rem;
     }
@@ -932,8 +1167,9 @@
         width: 35%;
         bottom: -15%;
     }
+
     .textAdd {
         top: -50%;
     }
-  
+
 }

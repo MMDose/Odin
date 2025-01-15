@@ -114,7 +114,7 @@
 }
 
 
-@media (min-width: 1067px) and (max-width: 1820px) and (min-height: 500px) and (max-height: 1000px) {
+@media (min-width: 1067px) and (max-width: 1820px) {
     .botcontrol {
         width: 100%;
         left: -10%;
@@ -164,7 +164,7 @@
     }
 
     .bot-card h3 {
-        font-size: 13px;
+        font-size: 1px;
     }
 
     .bot-card button {
@@ -191,8 +191,7 @@
     }
 
 }
-@media (min-width: 481px) and (max-width: 768px),
-(min-height: 701px) and (max-height: 800px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
     .botcontrol {
         width: 100%;
@@ -232,8 +231,7 @@
 }
 
 
-@media (min-width: 769px) and (max-width: 1024px),
-(min-height: 860px) and (max-height: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px){
 
     .botcontrol {
         width: 100%;
@@ -278,7 +276,7 @@
 
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) and (min-height: 768px) and (max-height: 900px) {
+@media (min-width: 1024px) and (max-width: 1366px) {
 
     .botcontrol {
         width: 100%;
@@ -312,7 +310,7 @@
 
 }
 
-@media (min-width: 1367px) and (max-width: 1920px) and (min-height: 900px) and (max-height: 1080px) {
+@media (min-width: 1367px) and (max-width: 1920px) {
 
     .botcontrol {
         width: 100%;
@@ -342,7 +340,7 @@
     }
 
 }   
-@media (min-width: 1921px) and (min-height: 1081px) {
+@media (min-width: 1921px)  {
 
     .botcontrol {
         width: 100%;
