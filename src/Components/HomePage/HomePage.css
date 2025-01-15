@@ -560,11 +560,11 @@
     }
 
     .header button {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .header img {
-        width: 13%;
+        width: 10%;
     }
 
     .body {
@@ -577,7 +577,7 @@
 
     .bodycontrol {
         left: 0%;
-        top: -10%;
+        top: -40%;
     }
 
     .title {
@@ -640,7 +640,10 @@
         padding: 10px;
     }
 
-
+    .odin {
+        width: 30%;
+        bottom: -10%;
+    }
     .odindiv {
         top: -5%;
     }
