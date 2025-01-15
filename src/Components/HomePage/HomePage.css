@@ -362,7 +362,7 @@
     }
 
     .header button {
-        font-size: 100%;
+        font-size: 80%;
     }
 
     .header img {
@@ -577,7 +577,7 @@
 
     .bodycontrol {
         left: 0%;
-        top: -40%;
+        top: -20%;
     }
 
     .title {
@@ -693,7 +693,9 @@
         width: 50%;
     }
 
-
+    .odin {
+        bottom: -10%;
+    }
     .textAdd {
         top: -40%;
     }
@@ -714,7 +716,7 @@
     }
 
     .bodycontrol {
-        top: -3%;
+        top: 3%;
     }
 
     .title {
@@ -767,7 +769,9 @@
     }
 
   
-
+    .odin {
+        bottom: -10%;
+    }
     .social-links img {
         width: 80px;
         height: 80px;
@@ -798,7 +802,7 @@
     }
 
     .bodycontrol {
-        top: -15%;
+        top: -5%;
     }
 
     .title {
@@ -850,7 +854,9 @@
         font-size: 31px;
     }
 
-
+    .odin {
+        bottom: -10%;
+    }
 
     /* .odinBoss {
         position: absolute;
@@ -876,4 +882,58 @@
     .textAdd :last-child {
         font-size: 30px;
     }
+}
+
+@media (min-width: 1424px) and (max-width: 1666px) and (min-height: 500px) and (max-height: 900px) {
+    .header {
+        gap: 3rem;
+    }
+
+    .header button {
+        font-size: 20px;
+
+    }
+
+    .header img {
+        width: 5%;
+    }
+
+    .bodycontrol {
+        top: 5%;
+    }
+
+    .title {
+        top: -45%;
+        font-size: 50px;
+    }
+
+    .body span {
+        top: -50%;
+        width: 37%;
+        font-size: 28px;
+        line-height: 33.04px;
+        background-color: transparent;
+    }
+
+    .social-links {
+        top: -50%;
+    }
+
+    .textAdd {
+        top: -47%;
+    }
+
+    .actions {
+        top: -50%;
+        width: 50%;
+    }
+
+    .odin {
+        width: 35%;
+        bottom: -15%;
+    }
+    .textAdd {
+        top: -50%;
+    }
+  
 }

@@ -159,12 +159,12 @@
     }
 
     .bot-card p {
-        font-size: 13px;
-        line-height: 21px;
+        font-size: 12px;
+        line-height: 15px;
     }
 
     .bot-card h3 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .bot-card button {

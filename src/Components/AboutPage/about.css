@@ -310,3 +310,36 @@
 
 
 }
+
+/* @media (min-width: 1424px) and (max-width: 1666px) and (min-height: 500px) and (max-height: 900px) {
+    .text {
+        position: relative;
+        bottom: 0%;
+        z-index: 3;
+        margin-top: -10%;
+    }
+
+    .text span {
+        font-size: 38px;
+        line-height: 51px;
+    }
+
+    .text p {
+        position: relative;
+        font-size: 88px;
+        line-height: 41px;
+        top: 0%;
+    }
+
+    .text span img {
+        width: 25%;
+    }
+    .odinmaleficent {
+        
+        position: relative;
+        bottom: 0%;
+        width: 30%;
+        left: 10%;
+    }
+
+} */

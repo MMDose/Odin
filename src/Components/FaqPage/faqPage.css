@@ -192,7 +192,7 @@
     }
 
     .social-text {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .social-icons img {
@@ -201,15 +201,15 @@
     }
 
     .faq-item-text {
-        font-size: 11px;
-        line-height: 15px;
+        font-size: 10px;
+        line-height: 13px;
         text-align: center;
         margin-left: 10%;
 
     }
 
     .faq-item-title {
-        font-size: 13px;
+        font-size: 11px;
         text-align: center;
     }
 
@@ -220,7 +220,7 @@
     }
 
     .faq-item {
-        width: 50%;
+        width: 47.7%;
     }
 
     .faq-items {
