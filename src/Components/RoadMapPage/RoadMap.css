@@ -127,7 +127,7 @@
 
 
 @media (min-width: 1067px) and (max-width: 1820px) {
-   
+
     .roadmap-item ul li {
         font-size: 16px;
 
@@ -154,9 +154,7 @@
         z-index: 0;
     }
 
-    .roadback {
-        height: 150%;
-    }
+
 
     .headerr h1 {
         font-size: 50px;
@@ -169,7 +167,11 @@
         font-size: 50px;
         z-index: 1;
     }
+    .roadback {
+        height: 100%;
+    }
 }
+
 @media (min-width: 481px) and (max-width: 768px) {
 
     .roadmap-item ul li {
@@ -198,9 +200,7 @@
         background: linear-gradient(180deg, #000000 10.2%, rgba(1, 1, 1, 0) 100%);
     }
 
-    .roadback {
-        height: 150%;
-    }
+
 
     .headerr h1 {
         -webkit-text-stroke: 0.1px rgba(53, 216, 36, 1);
@@ -212,6 +212,9 @@
         position: relative;
         top: 10%;
         font-size: 50px;
+    }
+    .roadback {
+        height: 100%;
     }
 }
 
@@ -257,9 +260,7 @@
         background: linear-gradient(180deg, #000000 10.2%, rgba(1, 1, 1, 0) 100%);
     }
 
-    .roadback {
-        height: 100vh;
-    }
+
 
     .headerr h1 {
         -webkit-text-stroke: 0.5px rgba(53, 216, 36, 1);
@@ -271,6 +272,9 @@
         position: relative;
         top: -5%;
         z-index: 5;
+    }
+    .roadback {
+        height: 100%;
     }
 }
 
@@ -298,13 +302,14 @@
         width: 25%;
     }
 
+    .roadback {
+        height: 100%;
+    }
+
     .gradient {
         background: linear-gradient(180deg, #000000 10.2%, rgba(1, 1, 1, 0) 100%);
     }
 
-    .roadback {
-        height: 150%;
-    }
 
     .headerr h1 {
         z-index: 5;
@@ -318,11 +323,15 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px)  {
+@media (min-width: 1024px) and (max-width: 1366px) {
 
     .roadmap-item ul li {
         font-size: 22px;
 
+    }
+
+    .roadback {
+        height: 100%;
     }
 
     .roadmap-item img {
@@ -346,9 +355,6 @@
         background: linear-gradient(180deg, #000000 10.2%, rgba(1, 1, 1, 0) 100%);
     }
 
-    .roadback {
-        height: 150%;
-    }
 
     .headerr h1 {
         font-size: 50px;
@@ -362,11 +368,16 @@
         z-index: 1;
     }
 }
+
 @media (min-width: 1367px) and (max-width: 1920px) {
 
     .roadmap-item ul li {
         font-size: 30px;
 
+    }
+
+    .roadback {
+        height: 100%;
     }
 
     .roadmap-item img {
@@ -391,9 +402,6 @@
         background: linear-gradient(180deg, #000000 10.2%, rgba(1, 1, 1, 0) 100%);
     }
 
-    .roadback {
-        height: 150%;
-    }
 
     .headerr h1 {
         font-size: 50px;
@@ -406,13 +414,16 @@
         font-size: 50px;
     }
 }
-@media (min-width: 1921px)  {
+
+@media (min-width: 1921px) {
 
     .roadmap-item ul li {
         font-size: 35px;
 
     }
-
+    .roadback {
+        height: 100%;
+    }
     .roadmap-item img {
         position: relative;
         width: 80%;
@@ -434,9 +445,6 @@
         background: linear-gradient(180deg, #000000 10.2%, rgba(1, 1, 1, 0) 100%);
     }
 
-    .roadback {
-        height: 150%;
-    }
 
     .headerr h1 {
         font-size: 60px;
