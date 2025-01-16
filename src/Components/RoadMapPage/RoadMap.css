@@ -38,14 +38,14 @@
 
 .headerr h1 {
     font-size: 100px;
-    font-weight: bold;
+    font-weight: 500;
     color: #009a0d;
     text-align: center;
     margin-top: 20px;
     background: transparent;
     background-color: transparent;
     color: black;
-    -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
+    -webkit-text-stroke: 3px rgba(53, 216, 36, 1);
     z-index: 6;
 }
 
@@ -167,6 +167,7 @@
         font-size: 50px;
         z-index: 1;
     }
+
     .roadback {
         height: 100%;
     }
@@ -203,9 +204,10 @@
 
 
     .headerr h1 {
-        -webkit-text-stroke: 0.1px rgba(53, 216, 36, 1);
         z-index: 5;
-        font-size: 30px;
+        font-size: 40px;
+        font-weight: 400;
+
     }
 
     .headerr {
@@ -213,6 +215,7 @@
         top: 10%;
         font-size: 50px;
     }
+
     .roadback {
         height: 100%;
     }
@@ -273,6 +276,7 @@
         top: -5%;
         z-index: 5;
     }
+
     .roadback {
         height: 100%;
     }
@@ -421,9 +425,11 @@
         font-size: 35px;
 
     }
+
     .roadback {
         height: 100%;
     }
+
     .roadmap-item img {
         position: relative;
         width: 80%;
@@ -433,6 +439,7 @@
 
     .roadmap-item h3 {
         font-size: 40px;
+
     }
 
     .roadmap-item {
@@ -449,6 +456,9 @@
     .headerr h1 {
         font-size: 60px;
         z-index: 5;
+        -webkit-text-stroke: 3px rgba(53, 216, 36, 1);
+        font-weight: 500;
+
     }
 
     .headerr {

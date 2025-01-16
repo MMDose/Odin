@@ -106,7 +106,7 @@
 @media (min-width: 1067px) and (max-width: 1820px) {
     .center-content h2 {
         font-size: 32px;
-        -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
+        -webkit-text-stroke: 3px rgba(53, 216, 36, 1);
 
     }
 
@@ -144,7 +144,7 @@
 @media (min-width: 481px) and (max-width: 768px) {
     .center-content h2 {
         font-size: 32px;
-        -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
+        -webkit-text-stroke: 3px rgba(53, 216, 36, 1);
     }
 
     .center-content p {
@@ -185,7 +185,8 @@
 @media (max-width: 480px) {
     .center-content h2 {
         font-size: 28px;
-        -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
+        -webkit-text-stroke: 3px rgba(53, 216, 36, 1);
+        font-weight: 400;
     }
 
     .center-content p {
@@ -338,6 +339,9 @@
 
 @media (min-width: 1921px)  {
     .center-content h2 {
+        -webkit-text-stroke: 3px rgba(53, 216, 36, 1);
+        font-weight: 500;
+
         font-size: 52px;
     }
 

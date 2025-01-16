@@ -1093,6 +1093,9 @@
     .title {
         top: -40%;
         font-size: 60px;
+        -webkit-text-stroke: 3px rgba(53, 216, 36, 1);
+        font-weight: 500;
+
     }
 
     .body span {
