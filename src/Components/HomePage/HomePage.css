@@ -2,13 +2,12 @@
     background-color: black;
     position: relative;
     overflow: hidden;
-    min-height: 100vh;
 }
 
 .header {
     position: fixed;
     width: 100%;
-    height: 15%;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +49,6 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
     background-color: transparent;
 }
 
@@ -69,8 +67,10 @@
 .odindiv {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 500px;
+    top: 0%;
     z-index: 0;
+    background-color: transparent;
 }
 
 .odinBoss {
@@ -83,6 +83,7 @@
     background-repeat: no-repeat;
     background-size: 90%;
     z-index: 1;
+    background-color: transparent;
 }
 
 .odin {
@@ -270,7 +271,7 @@
     background-color: transparent;
 }
 
-@media (min-width: 1067px) and (max-width: 1820px)  {
+@media (min-width: 1067px) and (max-width: 1820px) {
     .header {
         gap: 5rem;
     }
@@ -370,18 +371,19 @@
 
     .bodycontrol {
         left: 0%;
-        top: -5%;
+        top: 10px;
         gap: 2rem;
     }
 
     .title {
-        top: 0%;
+        top: 10px;
+        z-index: 1;
         font-size: 25px;
         -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
     }
 
     .body span {
-        top: -10%;
+        top: -50px;
         width: 55%;
         font-size: 100%;
         line-height: 23.04px;
@@ -389,13 +391,13 @@
     }
 
     .social-links {
-        top: -10%;
+        top: -100px;
         background-color: transparent;
         color: transparent;
     }
 
     .textAdd {
-        top: -10%;
+        top: -130px;
     }
 
 
@@ -414,9 +416,10 @@
     }
 
     .actions {
-        top: -10%;
+        top: -70px;
         width: 70%;
-        gap: 0.1rem;
+        gap: 0.3rem;
+        text-align: center;
     }
 
     .actions :nth-child(1) {
@@ -424,7 +427,6 @@
         height: 30px;
         font-size: 11px;
         border: 2px solid rgba(53, 216, 36, 1);
-        padding-bottom: 5px;
         text-align: center;
     }
 
@@ -432,7 +434,6 @@
         width: 120px;
         height: 30px;
         font-size: 11px;
-        padding: 1px;
         text-align: center;
 
 
@@ -442,10 +443,6 @@
         width: 120px;
         height: 30px;
         font-size: 11px;
-        text-align: center;
-        border: 2px solid transparent;
-
-
     }
 
     .actions :nth-child(4) {
@@ -453,10 +450,6 @@
         height: 30px;
         font-size: 10px;
         border: 2px solid rgba(53, 216, 36, 1);
-        padding-bottom: 5px;
-        text-align: center;
-
-
     }
 
     .odin {
@@ -464,14 +457,13 @@
         bottom: -7%;
     }
 
-    .body {
-        height: 70vh;
-    }
+
 
     .odinBoss {
-        bottom: 350px;
+        bottom: 200px;
         max-width: 100%;
         max-height: 100%;
+        background-color: transparent;
     }
 }
 
@@ -491,18 +483,17 @@
 
     .bodycontrol {
         left: 0%;
-        top: -5%;
         gap: 2rem;
     }
 
     .title {
-        top: 0%;
+        top: 0px;
         font-size: 25px;
         -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
     }
 
     .body span {
-        top: -10%;
+        top: -60px;
         width: 55%;
         font-size: 100%;
         line-height: 23.04px;
@@ -510,13 +501,13 @@
     }
 
     .social-links {
-        top: -10%;
+        top: -100px;
         background-color: transparent;
         color: transparent;
     }
 
     .textAdd {
-        top: -10%;
+        top: -130px;
     }
 
 
@@ -535,7 +526,7 @@
     }
 
     .actions {
-        top: -10%;
+        top: -80px;
         width: 70%;
         gap: 0.1rem;
     }
@@ -545,52 +536,34 @@
         height: 30px;
         font-size: 11px;
         border: 2px solid rgba(53, 216, 36, 1);
-        padding-bottom: 5px;
-        text-align: center;
     }
 
     .actions :nth-child(2) {
         width: 120px;
         height: 30px;
         font-size: 11px;
-        padding: 1px;
-        text-align: center;
-
-
     }
 
     .actions :nth-child(3) {
         width: 120px;
         height: 30px;
         font-size: 11px;
-        text-align: center;
-        border: 2px solid transparent;
-
-
     }
 
     .actions :nth-child(4) {
         width: 120px;
         height: 30px;
         font-size: 10px;
-        border: 2px solid rgba(53, 216, 36, 1);
-        padding-bottom: 5px;
-        text-align: center;
-
-
     }
 
     .odin {
         width: 45%;
-        bottom: -7%;
+        bottom: -10%;
     }
 
-    .body {
-        height: 70vh;
-    }
 
     .odinBoss {
-        bottom: 350px;
+        bottom: 150px;
         max-width: 100%;
         max-height: 100%;
     }
@@ -612,18 +585,17 @@
 
     .bodycontrol {
         left: 0%;
-        top: -5%;
         gap: 2rem;
     }
 
     .title {
-        top: 0%;
+        top: -40px;
         font-size: 25px;
         -webkit-text-stroke: 1px rgba(53, 216, 36, 1);
     }
 
     .body span {
-        top: -10%;
+        top: -90px;
         width: 55%;
         font-size: 100%;
         line-height: 23.04px;
@@ -631,13 +603,13 @@
     }
 
     .social-links {
-        top: -10%;
+        top: -120px;
         background-color: transparent;
         color: transparent;
     }
 
     .textAdd {
-        top: -10%;
+        top: -130px;
     }
 
 
@@ -656,7 +628,7 @@
     }
 
     .actions {
-        top: -10%;
+        top: -100px;
         width: 70%;
         gap: 0.1rem;
     }
@@ -703,23 +675,25 @@
 
     .odin {
         width: 45%;
-        bottom: -7%;
+        bottom: -12%;
     }
 
-    .body {
-        height: 70vh;
-    }
 
     .odinBoss {
-        bottom: 300px;
+        bottom: 50px;
         max-width: 100%;
         max-height: 100%;
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 700px) {
     .header {
-        gap: 0rem;
+        gap: 1.5rem;
+    }
+
+    .odin {
+        width: 35%;
+        bottom: -12%;
     }
 
     .header button {
@@ -733,7 +707,7 @@
 
     .bodycontrol {
         left: 0%;
-        top: 10%;
+        top: -50px;
     }
 
     .title {
@@ -743,7 +717,7 @@
     }
 
     .body span {
-        top: -45%;
+        top: -45px;
         width: 55%;
         font-size: 14px;
         line-height: 33.04px;
@@ -751,11 +725,19 @@
     }
 
     .social-links {
-        top: -50%;
+        top: -80px;
     }
 
     .textAdd {
-        top: -47%;
+        top: -97px;
+    }
+
+    .textAdd :first-child {
+        font-size: 14px;
+    }
+
+    .textAdd :last-child {
+        font-size: 14px;
     }
 
     .social-links img {
@@ -764,7 +746,7 @@
     }
 
     .actions {
-        top: -50%;
+        top: -50px;
         width: 55%;
     }
 
@@ -795,30 +777,22 @@
 
 }
 
-@media (min-width: 769px) and (max-width: 1024px){
+@media (min-width: 700px) and (max-width: 850px) {
     .header {
-        gap: 3rem;
+        gap: 2rem;
     }
 
     .header button {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .header img {
         width: 10%;
     }
 
-    .body {
-        height: 80vh;
-    }
-
-    .odindiv {
-        top: -2%;
-    }
-
     .bodycontrol {
         left: 0%;
-        top: -20%;
+        top: -60px;
     }
 
     .title {
@@ -827,7 +801,7 @@
     }
 
     .body span {
-        top: -5%;
+        top: -50px;
         width: 40%;
         font-size: 22px;
         line-height: 33.04px;
@@ -835,7 +809,7 @@
     }
 
     .social-links {
-        top: -5%;
+        top: -70px;
     }
 
     .social-links img {
@@ -844,41 +818,38 @@
     }
 
     .textAdd {
-        top: -5%;
+        top: -90px;
     }
 
     .actions {
-        top: -5%;
+        top: -50px;
         width: 55%;
     }
 
     .actions :nth-child(1) {
-        width: 100px;
-        height: 50px;
-        font-size: 19px;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
     }
 
     .actions :nth-child(2) {
-        width: 100px;
-        height: 50px;
-        font-size: 19px;
-        padding: 10px;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
 
     }
 
     .actions :nth-child(3) {
-        width: 100px;
-        height: 50px;
-        font-size: 19px;
-        padding: 10px;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
 
     }
 
     .actions :nth-child(4) {
-        width: 100px;
-        height: 50px;
-        font-size: 19px;
-        padding: 10px;
+         width: 120px;
+        height: 40px;
+        font-size: 15px;
     }
 
     .odin {
@@ -887,17 +858,17 @@
     }
 
     .odindiv {
-        top: -5%;
+        top: 30px;
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px)  {
+@media (min-width: 850px) and (max-width: 1266px) {
     .header {
-        gap: 5rem;
+        gap: 2rem;
     }
 
     .header button {
-        font-size: 30px;
+        font-size: 20px;
 
     }
 
@@ -906,47 +877,51 @@
     }
 
     .bodycontrol {
-        top: 5%;
+        top: -130px;
+        gap: 3rem;
     }
 
     .title {
         top: -45%;
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .body span {
-        top: -45%;
+        top: -55px;
         width: 37%;
-        font-size: 28px;
+        font-size: 24px;
         line-height: 33.04px;
         background-color: transparent;
     }
 
     .social-links {
-        top: -47%;
+        top: -67px;
     }
 
     .textAdd {
-        top: -47%;
+        top: -77px;
     }
 
     .actions {
-        top: -50%;
+        top: -50px;
         width: 50%;
     }
 
     .odin {
+        max-width: 320px;
         bottom: -10%;
     }
-
-    .textAdd {
-        top: -40%;
+    .odindiv {
+        height: 800px;
+        top: 0px;
     }
+
 }
 
-@media (min-width: 1367px) and (max-width: 1920px)  {
+@media (min-width: 1266px) and (max-width: 1620px) {
     .header {
         gap: 6rem;
+        height: 100px;
     }
 
     .header button {
@@ -959,16 +934,20 @@
     }
 
     .bodycontrol {
-        top: 3%;
+        gap: 3rem;
+        top: -150px;
     }
-
+    .odindiv {
+        height: 800px;
+        top: 100px;
+    }
     .title {
         top: -40%;
         font-size: 60px;
     }
 
     .body span {
-        top: -45%;
+        top: -55px;
         width: 37%;
         font-size: 32px;
         line-height: 43.04px;
@@ -976,15 +955,15 @@
     }
 
     .social-links {
-        top: -44%;
+        top: -84px;
     }
 
     .textAdd {
-        top: -40%;
+        top: -100px;
     }
 
     .actions {
-        top: -50%;
+        top: -50px;
     }
 
     .actions :nth-child(1) {
@@ -1013,119 +992,92 @@
 
 
     .odin {
+        width: 400px;
         bottom: -10%;
     }
 
     .social-links img {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
         background: transparent;
     }
-
+    
     .textAdd :first-child {
         font-size: 30px;
     }
-
+    
     .textAdd :last-child {
         font-size: 30px;
     }
 }
+    
+    @media (min-width: 1620px) and (max-width: 1966px) {
+        .header {
+            gap: 4rem;
+            height: 100px;
+        }
+    
+        .header button {
+            font-size: 30px;
+    
+        }
+    
+        .header img {
+            width: 5%;
+        }
+    
+        .bodycontrol {
+            top: -200px;
+        }
+    
+        .title {
+            top: -25px;
+            font-size: 50px;
+        }
+    
+        .body span {
+            top: -50px;
+            width: 37%;
+            font-size: 28px;
+            line-height: 33.04px;
+            background-color: transparent;
+        }
+    
+        .social-links {
+            top: -50px;
+        }
+    
+        .textAdd {
+            top: -47px;
+        }
+    
+        .actions {
+            top: -50px;
+            width: 50%;
+        }
+    
+        .odin {
+            width: 400px;
+            bottom: -10%;
+        }
+        .odindiv {
+            height: 800px;
+            top: 100px;
+        }
+        .textAdd {
+            top: -70px;
+        }
+    
+    } 
 
-@media (min-width: 1921px) and (min-height: 1081px) {
+@media (min-width: 1921px)  {
     .header {
         gap: 10rem;
+        height: 150px;
     }
 
     .header button {
-        font-size: 35px;
-
-    }
-
-    .header img {
-        width: 7%;
-    }
-
-    .bodycontrol {
-        top: -5%;
-    }
-
-    .title {
-        top: -40%;
-        font-size: 60px;
-    }
-
-    .body span {
-        top: -45%;
-        width: 27%;
-        font-size: 37px;
-        line-height: 43.04px;
-        background-color: transparent;
-    }
-
-    .social-links {
-        top: -44%;
-    }
-
-    .textAdd {
-        top: -40%;
-    }
-
-    .actions {
-        top: -45%;
-    }
-
-    .actions :nth-child(1) {
-        width: 170px;
-        height: 70px;
-        font-size: 31px;
-    }
-
-    .actions :nth-child(2) {
-        width: 170px;
-        height: 70px;
-        font-size: 31px;
-    }
-
-    .actions :nth-child(3) {
-        width: 170px;
-        height: 70px;
-        font-size: 31px;
-    }
-
-    .actions :nth-child(4) {
-        width: 170px;
-        height: 70px;
-        font-size: 31px;
-    }
-
-    .odin {
-        bottom: -10%;
-    }
-
-
-
-    .social-links img {
-        width: 80px;
-        height: 80px;
-        background: transparent;
-    }
-
-    .textAdd :first-child {
-        font-size: 30px;
-    }
-
-    .textAdd :last-child {
-        font-size: 30px;
-    }
-}
-
-@media (min-width: 1424px) and (max-width: 1666px) {
-    .header {
-        gap: 3rem;
-    }
-
-    .header button {
-        font-size: 20px;
+        font-size: 45px;
 
     }
 
@@ -1134,42 +1086,79 @@
     }
 
     .bodycontrol {
-        top: 5%;
+        gap: 6rem;
+        top: -200px;
     }
 
     .title {
-        top: -45%;
-        font-size: 50px;
+        top: -40%;
+        font-size: 60px;
     }
 
     .body span {
-        top: -50%;
-        width: 37%;
-        font-size: 28px;
-        line-height: 33.04px;
+        top: -100px;
+        width: 27%;
+        font-size: 37px;
+        line-height: 43.04px;
         background-color: transparent;
     }
 
     .social-links {
-        top: -50%;
+        top: -154px;
     }
 
     .textAdd {
-        top: -47%;
+        top: -150px;
     }
 
     .actions {
-        top: -50%;
-        width: 50%;
+        top: -105px;
+    }
+
+    .actions :nth-child(1) {
+        width: 170px;
+        height: 70px;
+        font-size: 31px;
+    }
+
+    .actions :nth-child(2) {
+        width: 170px;
+        height: 70px;
+        font-size: 31px;
+    }
+
+    .actions :nth-child(3) {
+        width: 170px;
+        height: 70px;
+        font-size: 31px;
+    }
+
+    .actions :nth-child(4) {
+        width: 170px;
+        height: 70px;
+        font-size: 31px;
     }
 
     .odin {
-        width: 35%;
-        bottom: -15%;
+        width: 500px;
+        bottom: -10%;
+    }
+    .odindiv {
+        height: 800px;
+        top: 100px;
     }
 
-    .textAdd {
-        top: -50%;
+    .social-links img {
+        width: 80px;
+        height: 80px;
+        background: transparent;
     }
 
+    .textAdd :first-child {
+        font-size: 30px;
+    }
+
+    .textAdd :last-child {
+        font-size: 30px;
+    }
 }
