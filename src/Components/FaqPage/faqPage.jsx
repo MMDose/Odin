@@ -18,11 +18,15 @@ function FaqPage() {
       <h1 className="faq-title">FAQ</h1>
       <div className="faq-items">
         {faqs.map((faq) => (
-          <div className="faq-item" key={faq.id}>
+          <div
+            className={`faq-item ${faq.id === 5 ? "faq-item-special" : ""}`}
+            key={faq.id}
+          >
             <h3 className="faq-item-title">{faq.title}</h3>
             <p className="faq-item-text">{faq.text}</p>
           </div>
         ))}
+
       </div>
       <div className="social-section">
         <div className="social-icons">
