@@ -23,10 +23,7 @@ function TokenPage() {
           <p>SUPPLY: 1,000,000,000 $ODIN</p>
           <p>LIQUIDITY: 20%</p>
           <p>PRESALE: 23%</p>
-          <p>MARKETING: 10%</p>
-          <p>TEAM: 7%</p>
-          <p>DEVELOPMENT: 20%</p>
-          <p>AIRDROPS: 5%</p>
+          <p>LOCKED 20%</p>
         </div>
         <div className="right-side">
           <img src={tokenodin2} className="ce-side" alt="Image 3" />

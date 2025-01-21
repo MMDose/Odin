@@ -16,11 +16,11 @@ function RoadMap() {
           <h3>Phase 1</h3>
           <img src={roadmapbr} alt="Phase 1" />
           <ul>
-            <li>Develop Rank and Volume Booster bots</li>
-            <li>Launch a presale to secure initialfunding</li>
-            <li>Launch Odin Coin.</li>
-            <li>Deploy Holder Booster and Referral System bots</li>
-            <li>Release Dexscreener Reaction Bot</li>
+            <li><s> Develop Rank and Volume Booster bots </s></li>
+            <li><s>Launch a presale to secure initialfunding</s></li>
+            <li><s>Launch Odin Coin.</s></li>
+            <li><s>Deploy Holder Booster and Referral System bots</s></li>
+            <li><s>Release Dexscreener Reaction Bot</s></li>
             <li>Launch a PumpFun Bundler</li>
             <li>Launch a Raydium Bundler</li>
             <li>Achieve 5+ daily customers.</li>
@@ -31,10 +31,10 @@ function RoadMap() {
           <img src={roadmapbr} alt="Phase 2" />
           <ul>
             <li>Launch PumpFun Volume Bot and offer it free for Odin holders</li>
-            <li>Release Rank Tracker Bot</li>
-            <li>Deploy BuyBack & Burn </li>
-            <li>Launch Bot Info Share for new users and active runs.</li>
-            <li> Upgrade servers and RPC to handle a larger user base</li>
+            <li><s>Release Rank Tracker Bot</s></li>
+            <li><s>Deploy BuyBack & Burn</s> </li>
+            <li><s>Launch Bot Info Share for new users and active runs.</s></li>
+            <li><s>Upgrade servers and RPC to handle a larger user base</s></li>
             <li>Burn 10% of Odin Coin liquidity</li>
             <li>Launch Profit Taker Bot (Odin Smart Trader). Integrate Odin Coin with bots.</li>
           </ul>

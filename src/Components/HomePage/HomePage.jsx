@@ -47,10 +47,10 @@ function HomePage() {
                         <button onClick={() => window.open('https://jup.ag/swap/SOL-odinyvt9FgWWxw9BwZFjf7Agcch6Pk9mKubszw4izAG', '_blank')}>
                             BUY $ODIN
                         </button>
-                        <button onClick={() => window.open('https://start-bot.com', '_blank')}>
+                        <button onClick={() => window.open('https://t.me/odin_tools_bot', '_blank')}>
                             START BOT
                         </button>
-                        <button onClick={() => navigator.clipboard.writeText('Your Contract Address')}>
+                        <button onClick={() => navigator.clipboard.writeText('odinyvt9FgWWxw9BwZFjf7Agcch6Pk9mKubszw4izAG')}>
                             COPY CA
                         </button>
                     </div>
