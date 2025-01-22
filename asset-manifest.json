@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Odin/static/css/main.bd302a47.css",
-    "main.js": "/Odin/static/js/main.d2f06018.js",
-    "static/media/roadmapback.png": "/Odin/static/media/roadmapback.f040e120bf035911d049.png",
-    "static/media/odinboss.png": "/Odin/static/media/odinboss.0ff9782e73b13d30e1fc.png",
-    "static/media/tokenback.png": "/Odin/static/media/tokenback.150c5d07cac6de6661e0.png",
-    "static/media/about-back.png": "/Odin/static/media/about-back.c653cf7bf462131844dd.png",
-    "static/media/odinboss1.png": "/Odin/static/media/odinboss1.946ff9b6077321337007.png",
-    "static/media/botsback.png": "/Odin/static/media/botsback.b9127e11e6a96053ffef.png",
-    "static/media/odin-maleficent 2.png": "/Odin/static/media/odin-maleficent 2.72e13a921d8d2c523f3b.png",
-    "static/media/CaesarDressing-Regular.ttf": "/Odin/static/media/CaesarDressing-Regular.64f78ba033b0990543a9.ttf",
-    "static/media/odin-coin4.png": "/Odin/static/media/odin-coin4.42dec62271c781dc01fb.png",
-    "static/media/odin-coin3.png": "/Odin/static/media/odin-coin3.a8c441e1181931dc3ed3.png",
-    "static/media/odin-coin2.png": "/Odin/static/media/odin-coin2.903cbcaeee404e29814d.png",
-    "static/media/odin-coin1.png": "/Odin/static/media/odin-coin1.1b6a95806be35b1e91c7.png",
-    "static/media/tokenodin2.png": "/Odin/static/media/tokenodin2.084b0aec8b6e529f0c42.png",
-    "static/media/tokenodin1.png": "/Odin/static/media/tokenodin1.8d896a2b78aae6e4c488.png",
-    "static/media/Macondo-Regular.ttf": "/Odin/static/media/Macondo-Regular.0f91bbd01192421b9786.ttf",
-    "index.html": "/Odin/index.html",
-    "main.bd302a47.css.map": "/Odin/static/css/main.bd302a47.css.map",
-    "main.d2f06018.js.map": "/Odin/static/js/main.d2f06018.js.map"
+    "main.css": "/static/css/main.15c2cc2e.css",
+    "main.js": "/static/js/main.e061d961.js",
+    "static/media/roadmapback.png": "/static/media/roadmapback.f040e120bf035911d049.png",
+    "static/media/odinboss.png": "/static/media/odinboss.0ff9782e73b13d30e1fc.png",
+    "static/media/tokenback.png": "/static/media/tokenback.150c5d07cac6de6661e0.png",
+    "static/media/about-back.png": "/static/media/about-back.c653cf7bf462131844dd.png",
+    "static/media/odinboss1.png": "/static/media/odinboss1.946ff9b6077321337007.png",
+    "static/media/botsback.png": "/static/media/botsback.b9127e11e6a96053ffef.png",
+    "static/media/odin-maleficent 2.png": "/static/media/odin-maleficent 2.72e13a921d8d2c523f3b.png",
+    "static/media/CaesarDressing-Regular.ttf": "/static/media/CaesarDressing-Regular.64f78ba033b0990543a9.ttf",
+    "static/media/odin-coin4.png": "/static/media/odin-coin4.42dec62271c781dc01fb.png",
+    "static/media/odin-coin3.png": "/static/media/odin-coin3.a8c441e1181931dc3ed3.png",
+    "static/media/odin-coin2.png": "/static/media/odin-coin2.903cbcaeee404e29814d.png",
+    "static/media/odin-coin1.png": "/static/media/odin-coin1.1b6a95806be35b1e91c7.png",
+    "static/media/tokenodin2.png": "/static/media/tokenodin2.084b0aec8b6e529f0c42.png",
+    "static/media/tokenodin1.png": "/static/media/tokenodin1.8d896a2b78aae6e4c488.png",
+    "static/media/Macondo-Regular.ttf": "/static/media/Macondo-Regular.0f91bbd01192421b9786.ttf",
+    "index.html": "/index.html",
+    "main.15c2cc2e.css.map": "/static/css/main.15c2cc2e.css.map",
+    "main.e061d961.js.map": "/static/js/main.e061d961.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd302a47.css",
-    "static/js/main.d2f06018.js"
+    "static/css/main.15c2cc2e.css",
+    "static/js/main.e061d961.js"
   ]
 }
