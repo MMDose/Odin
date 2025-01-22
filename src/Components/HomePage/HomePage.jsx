@@ -29,7 +29,7 @@ function HomePage() {
             </div>
             <header className="header">
                 <button onClick={() => scrollToSection(aboutRef)}>About</button>
-                <button onClick={() => scrollToSection(tokenRef)}>Tokenomiss</button>
+                <button onClick={() => scrollToSection(tokenRef)}>Tokenomics</button>
                 <img src={HomePage1} alt="Home Page Icon" />
                 <button onClick={() => scrollToSection(roadmapRef)}>Roadmap</button>
                 <button onClick={() => scrollToSection(botRef)}>Bots</button>
